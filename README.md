@@ -57,21 +57,28 @@ python3 scripts/preview.py    # картын хуудсыг шинэчилнэ
 ```
 
 ### 2. Шог зураг үүсгэх (Gemini)
+
+**Хялбар арга — GitHub дээр товч дарж (компьютер шаардлагагүй):**
+1. Repo → **Settings → Secrets and variables → Actions → New repository secret**
+   Name: `GEMINI_API_KEY`, Secret: таны түлхүүр (https://aistudio.google.com/apikey)
+2. Repo → **Actions → «Шог зураг үүсгэх (Gemini)» → Run workflow**
+   Эхлээд `limit`-д `5` гэж бичиж туршина, дараа нь `0` (бүгдийг).
+3. Дуусахад зургууд `images/` хавтсанд автоматаар commit хийгдэнэ. App тэднийг GitHub-аас шууд татна.
+   Таалагдаагүй зургийг дахин гаргах: `ids` талбарт `3 17` гэх мэт id бичнэ.
+
+**Компьютер дээрээс:**
 ```bash
 pip install -r requirements.txt
-export GEMINI_API_KEY="таны_түлхүүр"            # https://aistudio.google.com/apikey
-python3 scripts/generate_images.py --limit 5     # эхлээд 5-аар туршина
-python3 scripts/generate_images.py               # үлдсэн бүгдийг
+export GEMINI_API_KEY="таны_түлхүүр"
+python3 scripts/generate_images.py --limit 5
 ```
 - Аль хэдийн байгаа зургийг алгасна, тасарвал дахин ажиллуулахад үргэлжилнэ.
-- Таалагдаагүй зургийг дахин гаргах: `--force --ids 7`
-- Зурагны загварыг `scripts/build.py` доторх `IMAGE_STYLE`-аас өөрчилнө.
-- Model-ийг `GEMINI_IMAGE_MODEL` орчны хувьсагчаар сольж болно.
+- Зургийн загварыг `scripts/build.py` доторх `IMAGE_STYLE`-аас өөрчилнө. Model-ийг `GEMINI_IMAGE_MODEL`-оор сольж болно.
 
 ### 3. App-д оруулах (ЭЕШ Арена)
 1. `python3 scripts/build.py` ажиллуулна.
 2. `data/commonWords.ts` → app-ийн `src/data/commonWords.ts`-ийг бүтнээр нь солино.
-3. `images/*.webp` → app-ийн `public/vocab/images/` руу хуулна.
+3. Зургийг хуулах шаардлагагүй: `commonWords.ts` доторх зургийн зам нь энэ repo-ийн `images/` руу (raw.githubusercontent.com) заадаг.
 
 App дотор энэ нь **«Түгээмэл үгс»** багц болж гарна: үгийн картын ар талд шог зураг, түлхүүр үг, цээжлэх өгүүлбэр харагдана;
 1v1 тулаан, шалгалтад en2mn / mn2en асуулт болж орно. Бусад багцад давхцсан үг (жишээ: *empty*) зөвхөн энэ багцад үлдэнэ.

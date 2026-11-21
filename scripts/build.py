@@ -27,6 +27,9 @@ POS_MN = {
     'adverb': 'дайвар үг',
 }
 
+# App зургийг GitHub-аас шууд татна (images/ хавтас). Өөр газар байршуулбал энд солино.
+IMAGE_BASE = os.environ.get('VOCAB_IMAGE_BASE', 'https://raw.githubusercontent.com/eerdka7208/eyesh-vocab/main/')
+
 # Бүх зурагт нэг ижил загвар өгөх
 IMAGE_STYLE = (
     'Funny cartoon illustration for a vocabulary memory card. '
@@ -174,7 +177,7 @@ def main():
     lines += ['];', '', 'export const COMMON_MNEMONICS: Record<string, MnemonicEntry> = {']
     for x in out:
         lines.append(f"  {q(x['word'])}: {{ keyword: {q(x['keyword_mn'])}, pronMn: {q(x['pron_mn'])}, "
-                     f"mnemonic: {q(x['mnemonic_mn'])}, image: {q('/vocab/' + x['image']['file'])} }},")
+                     f"mnemonic: {q(x['mnemonic_mn'])}, image: {q(IMAGE_BASE + x['image']['file'])} }},")
     lines += ['};', '']
     with open(os.path.join(ROOT, 'data', 'commonWords.ts'), 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines))

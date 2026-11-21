@@ -1,0 +1,54 @@
+name: Шог зураг үүсгэх (Gemini)
+
+# GitHub → Actions → "Шог зураг үүсгэх (Gemini)" → Run workflow
+# Шаардлага: Settings → Secrets and variables → Actions → New repository secret
+#            Name: GEMINI_API_KEY, Secret: таны Gemini API түлхүүр
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Хэдэн зураг үүсгэх (0 = дутуу бүгдийг)'
+        required: false
+        default: '0'
+      ids:
+        description: 'Зөвхөн эдгээр id-г дахин үүсгэх (жишээ: 3 17 42). Хоосон бол алгасна'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-images
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Generate images
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "::error::GEMINI_API_KEY secret тохируулаагүй байна (Settings → Secrets and variables → Actions)"; exit 1
+          fi
+          ARGS=""
+          if [ "${{ inputs.limit }}" != "0" ]; then ARGS="$ARGS --limit ${{ inputs.limit }}"; fi
+          if [ -n "${{ inputs.ids }}" ]; then ARGS="$ARGS --force --ids ${{ inputs.ids }}"; fi
+          python3 scripts/generate_images.py $ARGS
+      - name: Commit images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898729+github-actions[bot]@users.noreply.github.com"
+          git add images/
+          if git diff --cached --quiet; then echo "Шинэ зураг алга"; exit 0; fi
+          git commit -m "Шог зураг нэмэв ($(git diff --cached --name-only | wc -l) файл)"
+          git pull --rebase origin main
+          git push origin main

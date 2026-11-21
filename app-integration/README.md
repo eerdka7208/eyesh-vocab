@@ -9,4 +9,4 @@ AI Studio-ийн Code хэсэгт эдгээрийг **яг ижил замаа
 | `app-integration/src/components/FlashcardDeck.tsx` | `src/components/FlashcardDeck.tsx` (картын шинэ ар тал) |
 
 Үүний дараа Gemini-д «Түгээмэл үгс» багцыг холбох prompt-ыг өгнө.
-Шог зургууд: `images/*.webp` → app-ийн `public/vocab/images/`.
+Шог зургууд app-д хуулах шаардлагагүй — GitHub-ийн `images/` хавтаснаас шууд татагдана.
