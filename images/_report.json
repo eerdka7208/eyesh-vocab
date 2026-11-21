@@ -1,13 +1,21 @@
 {
- "time": "2026-11-21T05:32:21.857060+00:00",
- "model": "gemini-2.5-flash-image",
+ "time": "2026-11-21T05:38:30.136587+00:00",
+ "model": "gemini-3.1-flash-image-preview",
  "generated_now": 0,
  "images_total": 0,
  "failed": [
-  "time"
+  "time",
+  "year",
+  "people",
+  "way",
+  "day"
  ],
- "fatal_error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-flash-preview-image, description: Generate content requests per day limit e",
+ "fatal_error": null,
  "errors": {
-  "time": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Q"
+  "time": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3.1-flash-image-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+  "year": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3.1-flash-image-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+  "people": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3.1-flash-image-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+  "way": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3.1-flash-image-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+  "day": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3.1-flash-image-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
  }
 }
