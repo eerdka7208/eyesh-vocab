@@ -112,6 +112,11 @@ def main():
                     model_idx += 1
                     print(f'  model солив → {MODELS[model_idx]}')
                     continue
+                # энэ model-д үнэгүй квот алга → дараагийн model-ийг оролдоно
+                if '429' in msg and 'limit: 0' in msg and model_idx + 1 < len(MODELS):
+                    model_idx += 1
+                    print(f'  квот 0 → model солив: {MODELS[model_idx]}')
+                    continue
                 # төлбөр/квот → цаашид оролдох нь утгагүй
                 if 'billing' in msg.lower() or ('429' in msg and 'limit: 0' in msg):
                     write_report(done, failed + [w['word']], errors, MODELS[model_idx], fatal=msg[:500])
