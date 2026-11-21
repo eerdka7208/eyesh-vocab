@@ -72,6 +72,10 @@ def run_openai(todo, key):
     from PIL import Image
     global MODELS
     MODELS = list(OPENAI_MODELS)
+    key = key.strip()
+    if not key.startswith('sk-'):
+        write_report(0, [], {}, MODELS[0], fatal=f'OPENAI_API_KEY буруу: "sk-"-ээр эхлэх ёстой (одоо "{key[:12]}..." гэж эхэлж байна)')
+        print('OPENAI_API_KEY буруу байна (sk- -ээр эхлэх ёстой).'); sys.exit(1)
     client = OpenAI(api_key=key)
     idx = 0
     done, failed, errors = 0, [], {}
@@ -104,8 +108,9 @@ def run_openai(todo, key):
                     idx += 1
                     print(f'  model солив → {MODELS[idx]} ({msg[:120]})')
                     continue
-                # төлбөр дууссан → зогсоно
-                if 'insufficient_quota' in low or 'billing' in low:
+                # түлхүүр буруу эсвэл төлбөр дууссан → шууд зогсоно
+                if '401' in msg or 'invalid_api_key' in low or 'incorrect api key' in low \
+                        or 'insufficient_quota' in low or 'billing' in low:
                     write_report(done, failed + [w['word']], errors, MODELS[idx], fatal=msg[:500])
                     print('Төлбөр/квотын алдаа:', msg[:300]); sys.exit(1)
                 # агуулгын шүүлтүүр → энэ зургийг алгасна
