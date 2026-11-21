@@ -1,27 +1,15 @@
 {
- "time": "2026-11-21T05:55:13.724495+00:00",
+ "time": "2026-11-21T05:56:01.417257+00:00",
  "model": "gpt-image-1-mini",
  "generated_now": 0,
  "images_total": 0,
- "failed": [
-  "time",
-  "year",
-  "people",
-  "way",
-  "day"
- ],
- "fatal_error": null,
+ "failed": [],
+ "fatal_error": "OPENAI_API_KEY буруу: \"sk-\"-ээр эхлэх ёстой (одоо \"https://gith...\" гэж эхэлж байна)",
  "available_image_models": [],
  "models_tried": [
   "gpt-image-1-mini",
   "gpt-image-1",
   "dall-e-3"
  ],
- "errors": {
-  "time": "Error code: 401 - Incorrect API key provided: https://**********************************************************/new. You can find your API key at https://platform.openai.com/account/api-keys.",
-  "year": "Error code: 401 - Incorrect API key provided: https://**********************************************************/new. You can find your API key at https://platform.openai.com/account/api-keys.",
-  "people": "Error code: 401 - Incorrect API key provided: https://**********************************************************/new. You can find your API key at https://platform.openai.com/account/api-keys.",
-  "way": "Error code: 401 - Incorrect API key provided: https://**********************************************************/new. You can find your API key at https://platform.openai.com/account/api-keys.",
-  "day": "Error code: 401 - Incorrect API key provided: https://**********************************************************/new. You can find your API key at https://platform.openai.com/account/api-keys."
- }
+ "errors": {}
 }
