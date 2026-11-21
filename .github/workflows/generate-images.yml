@@ -1,8 +1,8 @@
-name: Шог зураг үүсгэх (Gemini)
+name: Шог зураг үүсгэх (OpenAI / Gemini)
 
 # GitHub → Actions → "Шог зураг үүсгэх (Gemini)" → Run workflow
 # Шаардлага: Settings → Secrets and variables → Actions → New repository secret
-#            Name: GEMINI_API_KEY, Secret: таны Gemini API түлхүүр
+#            Name: OPENAI_API_KEY (эсвэл GEMINI_API_KEY), Secret: таны API түлхүүр
 on:
   # Үг нэмэгдэх эсвэл workflow шинэчлэгдэхэд автоматаар дутуу зургийг үүсгэнэ
   push:
@@ -42,6 +42,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Generate images
         env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           ARGS=""

@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-data/words.json доторх prompt бүрээр Gemini-ээр шог зураг үүсгэж images/ хавтсанд WebP болгон хадгална.
+data/words.json доторх prompt бүрээр шог зураг үүсгэж images/ хавтсанд WebP болгон хадгална.
+OPENAI_API_KEY байвал OpenAI (gpt-image-1-mini → gpt-image-1 → dall-e-3), үгүй бол GEMINI_API_KEY-ээр Gemini ашиглана.
 
 Суулгах:
-    pip install google-genai pillow
+    pip install -r requirements.txt
 
 Ажиллуулах:
-    export GEMINI_API_KEY="таны_түлхүүр"          # Windows PowerShell: $env:GEMINI_API_KEY="..."
+    export OPENAI_API_KEY="таны_түлхүүр"          # эсвэл GEMINI_API_KEY
     python3 scripts/generate_images.py              # байхгүй бүх зургийг үүсгэнэ
     python3 scripts/generate_images.py --limit 5    # эхний 5-ыг туршиж үзэх
     python3 scripts/generate_images.py --ids 1 25 99
@@ -47,6 +48,81 @@ def write_report(done, failed, errors, model, fatal=None):
               open(REPORT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 
+OPENAI_MODELS = [m for m in os.environ.get('OPENAI_IMAGE_MODEL', '').split(',') if m] or [
+    'gpt-image-1-mini',
+    'gpt-image-1',
+    'dall-e-3',
+]
+OPENAI_QUALITY = os.environ.get('OPENAI_IMAGE_QUALITY', 'medium')  # low / medium / high
+
+
+def openai_generate(client, model, prompt):
+    """Нэг зураг үүсгээд PNG/WebP байт буцаана."""
+    import base64
+    if model.startswith('dall-e'):
+        r = client.images.generate(model=model, prompt=prompt[:3900], size='1024x1024', n=1,
+                                   quality='standard', response_format='b64_json')
+    else:
+        r = client.images.generate(model=model, prompt=prompt, size='1024x1024', n=1, quality=OPENAI_QUALITY)
+    return base64.b64decode(r.data[0].b64_json)
+
+
+def run_openai(todo, key):
+    from openai import OpenAI
+    from PIL import Image
+    global MODELS
+    MODELS = list(OPENAI_MODELS)
+    client = OpenAI(api_key=key)
+    idx = 0
+    done, failed, errors = 0, [], {}
+    print(f'OpenAI model: {MODELS[idx]} | үүсгэх зураг: {len(todo)}')
+    for i, w in enumerate(todo, 1):
+        out_path = os.path.join(ROOT, w['image']['file'])
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+        ok = False
+        attempt = 0
+        while attempt < 4:
+            try:
+                data = openai_generate(client, MODELS[idx], w['image']['prompt'])
+                img = Image.open(io.BytesIO(data)).convert('RGB')
+                s_ = min(img.size)
+                l, t = (img.width - s_) // 2, (img.height - s_) // 2
+                img = img.crop((l, t, l + s_, t + s_)).resize((SIZE, SIZE), Image.LANCZOS)
+                img.save(out_path, 'WEBP', quality=QUALITY, method=6)
+                done += 1
+                errors.pop(w['word'], None)
+                ok = True
+                print(f'[{i}/{len(todo)}] ✓ {w["id"]:04d} {w["word"]} ({MODELS[idx]})')
+                break
+            except Exception as e:  # noqa: BLE001
+                msg = str(e)
+                low = msg.lower()
+                errors[w['word']] = msg[:300]
+                # model олдсонгүй / баталгаажуулалт шаардсан / эрх алга → дараагийн model
+                if (('model' in low and ('not found' in low or 'does not exist' in low or 'verified' in low
+                                         or 'verify' in low or 'access' in low)) or '403' in msg) and idx + 1 < len(MODELS):
+                    idx += 1
+                    print(f'  model солив → {MODELS[idx]} ({msg[:120]})')
+                    continue
+                # төлбөр дууссан → зогсоно
+                if 'insufficient_quota' in low or 'billing' in low:
+                    write_report(done, failed + [w['word']], errors, MODELS[idx], fatal=msg[:500])
+                    print('Төлбөр/квотын алдаа:', msg[:300]); sys.exit(1)
+                # агуулгын шүүлтүүр → энэ зургийг алгасна
+                if 'safety' in low or 'content_policy' in low or 'moderation' in low:
+                    print(f'  агуулгын шүүлтүүрт өртөв: {w["word"]}')
+                    break
+                attempt += 1
+                wait = PAUSE * (2 ** attempt)
+                print(f'[{i}/{len(todo)}] ! {w["word"]}: {msg[:160]} → {wait:.0f}с хүлээгээд дахин')
+                time.sleep(wait)
+        if not ok:
+            failed.append(w['word'])
+        time.sleep(0.5)
+    write_report(done, failed, errors, MODELS[idx])
+    print(f'\nДууслаа: {done} амжилттай, {len(failed)} алдаатай')
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--limit', type=int, default=0, help='хамгийн ихдээ хэдэн зураг үүсгэх')
@@ -54,18 +130,28 @@ def main():
     ap.add_argument('--force', action='store_true', help='байгаа зургийг дарж бичих')
     args = ap.parse_args()
 
+    words = json.load(open(WORDS, encoding='utf-8'))
+    if args.ids:
+        words = [w for w in words if w['id'] in set(args.ids)]
+    todo = [w for w in words if args.force or not os.path.exists(os.path.join(ROOT, w['image']['file']))]
+    if args.limit:
+        todo = todo[: args.limit]
+
+    if os.environ.get('OPENAI_API_KEY'):
+        return run_openai(todo, os.environ['OPENAI_API_KEY'])
+
     try:
         from google import genai
         from google.genai import types
         from PIL import Image
     except ImportError:
-        print('Эхлээд суулга:  pip install google-genai pillow'); sys.exit(1)
+        print('Эхлээд суулга:  pip install -r requirements.txt'); sys.exit(1)
 
     key = os.environ.get('GEMINI_API_KEY')
     if not key:
         os.makedirs(os.path.join(ROOT, 'images'), exist_ok=True)
-        write_report(0, [], {}, MODELS[0], fatal='GEMINI_API_KEY тохируулаагүй')
-        print('GEMINI_API_KEY орчны хувьсагч тохируулаагүй байна.'); sys.exit(1)
+        write_report(0, [], {}, MODELS[0], fatal='OPENAI_API_KEY эсвэл GEMINI_API_KEY тохируулаагүй')
+        print('OPENAI_API_KEY эсвэл GEMINI_API_KEY тохируулаагүй байна.'); sys.exit(1)
     try:
         client = genai.Client(api_key=key, http_options={'api_version': 'v1beta'})
     except TypeError:
@@ -84,13 +170,6 @@ def main():
     except Exception as e:  # noqa: BLE001
         AVAILABLE_IMAGE_MODELS = [f'list error: {e}'[:200]]
 
-    words = json.load(open(WORDS, encoding='utf-8'))
-    if args.ids:
-        words = [w for w in words if w['id'] in set(args.ids)]
-
-    todo = [w for w in words if args.force or not os.path.exists(os.path.join(ROOT, w['image']['file']))]
-    if args.limit:
-        todo = todo[: args.limit]
     model_idx = 0
     print(f'Model: {MODELS[model_idx]} | үүсгэх зураг: {len(todo)}')
 

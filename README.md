@@ -56,12 +56,13 @@ python3 scripts/build.py      # JSON, CSV, commonWords.ts үүсгэнэ; алд
 python3 scripts/preview.py    # картын хуудсыг шинэчилнэ
 ```
 
-### 2. Шог зураг үүсгэх (Gemini)
+### 2. Шог зураг үүсгэх (OpenAI эсвэл Gemini)
 
 **Хялбар арга — GitHub дээр товч дарж (компьютер шаардлагагүй):**
 1. Repo → **Settings → Secrets and variables → Actions → New repository secret**
-   Name: `GEMINI_API_KEY`, Secret: таны түлхүүр (https://aistudio.google.com/apikey)
-2. Repo → **Actions → «Шог зураг үүсгэх (Gemini)» → Run workflow**
+   Name: `OPENAI_API_KEY` (https://platform.openai.com/api-keys) эсвэл `GEMINI_API_KEY` (https://aistudio.google.com/apikey)
+   OpenAI: gpt-image-1-mini, дунд чанар ≈ $0.011 / зураг (баталгаажуулалт шаардвал автоматаар dall-e-3).
+2. Repo → **Actions → «Шог зураг үүсгэх (OpenAI / Gemini)» → Run workflow**
    Эхлээд `limit`-д `5` гэж бичиж туршина, дараа нь `0` (бүгдийг).
 3. Дуусахад зургууд `images/` хавтсанд автоматаар commit хийгдэнэ. App тэднийг GitHub-аас шууд татна.
    Таалагдаагүй зургийг дахин гаргах: `ids` талбарт `3 17` гэх мэт id бичнэ.
@@ -69,7 +70,7 @@ python3 scripts/preview.py    # картын хуудсыг шинэчилнэ
 **Компьютер дээрээс:**
 ```bash
 pip install -r requirements.txt
-export GEMINI_API_KEY="таны_түлхүүр"
+export OPENAI_API_KEY="таны_түлхүүр"     # эсвэл GEMINI_API_KEY
 python3 scripts/generate_images.py --limit 5
 ```
 - Аль хэдийн байгаа зургийг алгасна, тасарвал дахин ажиллуулахад үргэлжилнэ.
