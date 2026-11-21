@@ -1,0 +1,16 @@
+name: Validate vocabulary
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build & validate
+        run: python3 scripts/build.py
+      - name: Check generated files are up to date
+        run: |
+          python3 scripts/preview.py
+          git diff --exit-code data/words.json data/words.csv data/commonWords.ts docs/index.html || (echo "build.py / preview.py ажиллуулаад commit хийнэ үү" && exit 1)
