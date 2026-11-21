@@ -4,6 +4,14 @@ name: Шог зураг үүсгэх (Gemini)
 # Шаардлага: Settings → Secrets and variables → Actions → New repository secret
 #            Name: GEMINI_API_KEY, Secret: таны Gemini API түлхүүр
 on:
+  # Үг нэмэгдэх эсвэл workflow шинэчлэгдэхэд автоматаар дутуу зургийг үүсгэнэ
+  push:
+    branches: [main]
+    paths:
+      - 'data/source/**'
+      - 'scripts/generate_images.py'
+      - '.github/workflows/generate-images.yml'
+      - '.github/trigger-images'
   workflow_dispatch:
     inputs:
       limit:
@@ -37,11 +45,12 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           if [ -z "$GEMINI_API_KEY" ]; then
-            echo "::error::GEMINI_API_KEY secret тохируулаагүй байна (Settings → Secrets and variables → Actions)"; exit 1
+            echo "::warning::GEMINI_API_KEY secret тохируулаагүй тул зураг үүсгэсэнгүй (Settings → Secrets and variables → Actions)"; exit 0
           fi
           ARGS=""
-          if [ "${{ inputs.limit }}" != "0" ]; then ARGS="$ARGS --limit ${{ inputs.limit }}"; fi
-          if [ -n "${{ inputs.ids }}" ]; then ARGS="$ARGS --force --ids ${{ inputs.ids }}"; fi
+          LIMIT="${{ inputs.limit }}"; IDS="${{ inputs.ids }}"
+          if [ -n "$LIMIT" ] && [ "$LIMIT" != "0" ]; then ARGS="$ARGS --limit $LIMIT"; fi
+          if [ -n "$IDS" ]; then ARGS="$ARGS --force --ids $IDS"; fi
           python3 scripts/generate_images.py $ARGS
       - name: Commit images
         run: |
