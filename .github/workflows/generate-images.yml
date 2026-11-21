@@ -44,15 +44,18 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          if [ -z "$GEMINI_API_KEY" ]; then
-            echo "::warning::GEMINI_API_KEY secret тохируулаагүй тул зураг үүсгэсэнгүй (Settings → Secrets and variables → Actions)"; exit 0
-          fi
           ARGS=""
           LIMIT="${{ inputs.limit }}"; IDS="${{ inputs.ids }}"
+          # push-ээр ажиллахад .github/trigger-images доторх LIMIT= / IDS= мөрийг уншина
+          if [ -z "$LIMIT" ] && [ -f .github/trigger-images ]; then
+            LIMIT=$(grep -oP '^LIMIT=\K[0-9]+' .github/trigger-images || true)
+            IDS=$(grep -oP '^IDS=\K[0-9 ]+' .github/trigger-images || true)
+          fi
           if [ -n "$LIMIT" ] && [ "$LIMIT" != "0" ]; then ARGS="$ARGS --limit $LIMIT"; fi
           if [ -n "$IDS" ]; then ARGS="$ARGS --force --ids $IDS"; fi
-          python3 scripts/generate_images.py $ARGS
-      - name: Commit images
+          python3 scripts/generate_images.py $ARGS || echo "generate_images.py алдаатай дууслаа (images/_report.json-ийг үз)"
+      - name: Commit images and report
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898729+github-actions[bot]@users.noreply.github.com"

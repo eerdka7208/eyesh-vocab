@@ -24,10 +24,25 @@ import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WORDS = os.path.join(ROOT, 'data', 'words.json')
-MODEL = os.environ.get('GEMINI_IMAGE_MODEL', 'gemini-2.5-flash-image')
+# Эхнийх нь ажиллахгүй бол (нэр солигдсон гэх мэт) дараагийнхыг оролдоно
+MODELS = [m for m in os.environ.get('GEMINI_IMAGE_MODEL', '').split(',') if m] or [
+    'gemini-2.5-flash-image',
+    'gemini-3.1-flash-image-preview',
+]
+REPORT = os.path.join(ROOT, 'images', '_report.json')
 SIZE = 512          # гаралтын хэмжээ (px)
 QUALITY = 82        # WebP чанар
 PAUSE = 4.0         # хүсэлт хоорондын завсар (сек), хязгаарт хүрэхгүйн тулд
+
+
+def write_report(done, failed, errors, model, fatal=None):
+    import datetime
+    total = len([f for f in os.listdir(os.path.join(ROOT, 'images')) if f.endswith('.webp')])
+    os.makedirs(os.path.dirname(REPORT), exist_ok=True)
+    json.dump({'time': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'model': model, 'generated_now': done,
+               'images_total': total, 'failed': failed, 'fatal_error': fatal,
+               'errors': {k: v for k, v in list(errors.items())[:20]}},
+              open(REPORT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 
 def main():
@@ -46,6 +61,8 @@ def main():
 
     key = os.environ.get('GEMINI_API_KEY')
     if not key:
+        os.makedirs(os.path.join(ROOT, 'images'), exist_ok=True)
+        write_report(0, [], {}, MODELS[0], fatal='GEMINI_API_KEY тохируулаагүй')
         print('GEMINI_API_KEY орчны хувьсагч тохируулаагүй байна.'); sys.exit(1)
     client = genai.Client(api_key=key)
 
@@ -56,16 +73,17 @@ def main():
     todo = [w for w in words if args.force or not os.path.exists(os.path.join(ROOT, w['image']['file']))]
     if args.limit:
         todo = todo[: args.limit]
-    print(f'Model: {MODEL} | үүсгэх зураг: {len(todo)}')
+    model_idx = 0
+    print(f'Model: {MODELS[model_idx]} | үүсгэх зураг: {len(todo)}')
 
-    done, failed = 0, []
+    done, failed, errors = 0, [], {}
     for i, w in enumerate(todo, 1):
         out_path = os.path.join(ROOT, w['image']['file'])
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
         for attempt in range(4):
             try:
                 resp = client.models.generate_content(
-                    model=MODEL,
+                    model=MODELS[model_idx],
                     contents=[w['image']['prompt']],
                     config=types.GenerateContentConfig(response_modalities=['IMAGE']),
                 )
@@ -83,9 +101,21 @@ def main():
                 img = img.crop((l, t, l + s, t + s)).resize((SIZE, SIZE), Image.LANCZOS)
                 img.save(out_path, 'WEBP', quality=QUALITY, method=6)
                 done += 1
+                errors.pop(w['word'], None)
                 print(f'[{i}/{len(todo)}] ✓ {w["id"]:04d} {w["word"]}')
                 break
             except Exception as e:  # noqa: BLE001
+                msg = str(e)
+                errors[w['word']] = msg[:300]
+                # model олдсонгүй → дараагийн model руу шилжинэ
+                if ('404' in msg or 'not found' in msg.lower()) and model_idx + 1 < len(MODELS):
+                    model_idx += 1
+                    print(f'  model солив → {MODELS[model_idx]}')
+                    continue
+                # төлбөр/квот → цаашид оролдох нь утгагүй
+                if 'billing' in msg.lower() or ('429' in msg and 'limit: 0' in msg):
+                    write_report(done, failed + [w['word']], errors, MODELS[model_idx], fatal=msg[:500])
+                    print('Квот/төлбөрийн алдаа:', msg[:300]); sys.exit(1)
                 wait = PAUSE * (2 ** attempt)
                 print(f'[{i}/{len(todo)}] ! {w["word"]}: {e} → {wait:.0f}с хүлээгээд дахин оролдоно')
                 time.sleep(wait)
@@ -93,6 +123,7 @@ def main():
             failed.append(w['word'])
         time.sleep(PAUSE)
 
+    write_report(done, failed, errors, MODELS[model_idx])
     print(f'\nДууслаа: {done} амжилттай, {len(failed)} алдаатай')
     if failed:
         print('Алдаатай үгс:', ', '.join(failed))
