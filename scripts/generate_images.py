@@ -30,6 +30,7 @@ MODELS = [m for m in os.environ.get('GEMINI_IMAGE_MODEL', '').split(',') if m] o
     'gemini-3.1-flash-image-preview',
 ]
 REPORT = os.path.join(ROOT, 'images', '_report.json')
+AVAILABLE_IMAGE_MODELS = []
 SIZE = 512          # гаралтын хэмжээ (px)
 QUALITY = 82        # WebP чанар
 PAUSE = 4.0         # хүсэлт хоорондын завсар (сек), хязгаарт хүрэхгүйн тулд
@@ -41,6 +42,7 @@ def write_report(done, failed, errors, model, fatal=None):
     os.makedirs(os.path.dirname(REPORT), exist_ok=True)
     json.dump({'time': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'model': model, 'generated_now': done,
                'images_total': total, 'failed': failed, 'fatal_error': fatal,
+               'available_image_models': AVAILABLE_IMAGE_MODELS, 'models_tried': MODELS,
                'errors': {k: v for k, v in list(errors.items())[:20]}},
               open(REPORT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
@@ -64,7 +66,23 @@ def main():
         os.makedirs(os.path.join(ROOT, 'images'), exist_ok=True)
         write_report(0, [], {}, MODELS[0], fatal='GEMINI_API_KEY тохируулаагүй')
         print('GEMINI_API_KEY орчны хувьсагч тохируулаагүй байна.'); sys.exit(1)
-    client = genai.Client(api_key=key)
+    try:
+        client = genai.Client(api_key=key, http_options={'api_version': 'v1beta'})
+    except TypeError:
+        client = genai.Client(api_key=key)
+
+    # Энэ түлхүүрээр ашиглах боломжтой зураг үүсгэх model-ууд (тайланд бичнэ)
+    global AVAILABLE_IMAGE_MODELS
+    try:
+        AVAILABLE_IMAGE_MODELS = sorted(
+            m.name.split('/')[-1] for m in client.models.list() if 'image' in (m.name or '').lower()
+        )
+        print('Боломжтой зургийн model-ууд:', AVAILABLE_IMAGE_MODELS)
+        for m in reversed(AVAILABLE_IMAGE_MODELS):  # жагсаалтад байгаа шинэ model-уудыг нөөцөд нэмнэ
+            if m not in MODELS and 'imagen' not in m:
+                MODELS.append(m)
+    except Exception as e:  # noqa: BLE001
+        AVAILABLE_IMAGE_MODELS = [f'list error: {e}'[:200]]
 
     words = json.load(open(WORDS, encoding='utf-8'))
     if args.ids:
