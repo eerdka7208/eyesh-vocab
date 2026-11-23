@@ -1,6 +1,6 @@
 /* eslint-disable */
 // Автоматаар үүсгэсэн (eyesh-vocab/scripts/build.py). Гараар бүү засаарай.
-// Мөр бүр: [сэдэв, англи, монгол, IPA, үгсийн аймаг, жишээ (англи), жишээ (монгол)]
+// «Түгээмэл үгс» багц. Мөр бүр: [сэдэв, англи, монгол, IPA, үгсийн аймаг, жишээ (англи), жишээ (монгол)]
 import type { MnemonicEntry } from './vocabMnemonics';
 
 export const COMMON_WORDS: [string, string, string, string, 'n.' | 'v.' | 'adj.' | 'adv.' | 'phr.', string, string][] = [

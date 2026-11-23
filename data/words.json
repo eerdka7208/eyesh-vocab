@@ -2420,5 +2420,2405 @@
       "mn": "Би өглөө бүр талх иддэг."
     },
     "avoid_with": []
+  },
+  {
+    "id": 101,
+    "word": "neighbor",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "хөрш",
+    "ipa": "/ˈneɪ.bər/",
+    "pron_mn": "нэйбэр",
+    "keyword_mn": "нэг бэр",
+    "mnemonic_mn": "Хөрш айлын нэг бэр манайд давс зээлэхээр өдөрт арван удаа орж ирдэг болохоор хоёр айл нэг гал тогоотой болчихлоо.",
+    "image": {
+      "file": "images/0101-neighbor.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a young bride from the house next door knocking on the door for the tenth time to borrow salt, two families crowded into one shared kitchen"
+    },
+    "example": {
+      "en": "Our neighbor helped us carry the heavy boxes.",
+      "mn": "Манай хөрш бидэнд хүнд хайрцагнуудыг зөөхөд тусалсан."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 102,
+    "word": "relative",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "хамаатан садан",
+    "ipa": "/ˈrel.ə.tɪv/",
+    "pron_mn": "рэлэтив",
+    "keyword_mn": "рельс",
+    "mnemonic_mn": "Цагаан сараар хамаатан садан маань хэтэрхий олуулаа ирсэн тул гэрээс галт тэрэгний рельс хүртэл дугаарлан зогсов.",
+    "image": {
+      "file": "images/0102-relative.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a very long line of relatives in colorful traditional clothes stretching from a family home all the way to the railway tracks"
+    },
+    "example": {
+      "en": "Many relatives gathered for the Lunar New Year.",
+      "mn": "Цагаан сараар олон хамаатан садан цугларсан."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 103,
+    "word": "childhood",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "хүүхэд нас",
+    "ipa": "/ˈtʃaɪld.hʊd/",
+    "pron_mn": "чайлдхүд",
+    "keyword_mn": "цай, худаг",
+    "mnemonic_mn": "Хүүхэд насандаа би худаг руу цай хийчихээд бүхэл бүтэн тосгоныг нэг худаг сүүтэй цайгаар дайлж байсан.",
+    "image": {
+      "file": "images/0103-childhood.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a small mischievous kid pouring tea leaves into a village well while villagers happily drink milk tea from buckets"
+    },
+    "example": {
+      "en": "She spent her happy childhood in the countryside.",
+      "mn": "Тэрээр хүүхэд насаа хөдөө нутагт жаргалтай өнгөрүүлсэн."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 104,
+    "word": "friendship",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "нөхөрлөл",
+    "ipa": "/ˈfrend.ʃɪp/",
+    "pron_mn": "фрэндшип",
+    "keyword_mn": "шийр",
+    "mnemonic_mn": "Хоёр дотно найз ганц хонины шийрийг хоёр талаас нь зуугаад булаацалдахгүй хамтдаа идэж дуусгасан нь жинхэнэ нөхөрлөл юм.",
+    "image": {
+      "file": "images/0104-friendship.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: two best friends each biting one end of a single roasted lamb leg, smiling happily at each other"
+    },
+    "example": {
+      "en": "True friendship grows stronger over the years.",
+      "mn": "Жинхэнэ нөхөрлөл он жил өнгөрөх тусам улам бат бөх болдог."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 105,
+    "word": "generous",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "өгөөмөр",
+    "ipa": "/ˈdʒen.ər.əs/",
+    "pron_mn": "жэнэрэс",
+    "keyword_mn": "зээ нар",
+    "mnemonic_mn": "Өгөөмөр авга ах зээ нараасаа юу ч нэхдэггүй, харин бүх зээ нартаа нэг нэг шинэ дугуй бэлэглэжээ.",
+    "image": {
+      "file": "images/0105-generous.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a generous uncle handing out shiny new bicycles to a long line of excited nephews and nieces"
+    },
+    "example": {
+      "en": "It was very generous of him to share his notes.",
+      "mn": "Тэмдэглэлээ хуваалцсан нь түүний маш өгөөмөр сэтгэл байлаа."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 106,
+    "word": "honest",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "шударга",
+    "ipa": "/ˈɒn.ɪst/",
+    "pron_mn": "онист",
+    "keyword_mn": "оньс",
+    "mnemonic_mn": "Шударга хүү тайлж чадаагүй оньсоо хуурахын оронд \"Би чадсангүй\" гэж үнэнээ хэлэхэд оньс өөрөө ичээд тайлагдчихав.",
+    "image": {
+      "file": "images/0106-honest.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: an honest boy holding up a wooden puzzle lock and admitting he failed, while the puzzle lock magically opens by itself"
+    },
+    "example": {
+      "en": "Always give an honest answer even when it is hard.",
+      "mn": "Хэцүү байсан ч үргэлж шударга хариулт өгөөрэй."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 107,
+    "word": "patient",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "тэвчээртэй",
+    "ipa": "/ˈpeɪ.ʃənt/",
+    "pron_mn": "пэйшэнт",
+    "keyword_mn": "байшин",
+    "mnemonic_mn": "Тэвчээртэй хүү 100 давхар байшинг тоосго тоосгоор нь ганцаараа барьсаар, дуусахад нь сахал нь газарт хүрчихсэн байв.",
+    "image": {
+      "file": "images/0107-patient.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a patient boy with a beard down to the ground placing the last brick on top of a hundred floor building he built alone"
+    },
+    "example": {
+      "en": "Learning a new language requires you to be patient.",
+      "mn": "Шинэ хэл сурахад тэвчээртэй байх шаардлагатай."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 108,
+    "word": "polite",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "эелдэг",
+    "ipa": "/pəˈlaɪt/",
+    "pron_mn": "пэлайт",
+    "keyword_mn": "палат",
+    "mnemonic_mn": "Эелдэг сурагч эмнэлгийн палат руу ороод бүх өвчтөнд мэндэлж, тарианы зүүнд хүртэл бөхийж мэндчилэв.",
+    "image": {
+      "file": "images/0108-polite.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a very polite student bowing to every patient in a hospital ward and even bowing politely to a syringe"
+    },
+    "example": {
+      "en": "The polite student thanked the teacher after class.",
+      "mn": "Эелдэг сурагч хичээлийн дараа багшдаа талархлаа."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 109,
+    "word": "confident",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "өөртөө итгэлтэй",
+    "ipa": "/ˈkɒn.fɪ.dənt/",
+    "pron_mn": "конфидэнт",
+    "keyword_mn": "конфет",
+    "mnemonic_mn": "Өөртөө итгэлтэй хүү 100 конфетыг нэг дор амандаа багтаана гэж мөрийцөөд хацар нь хоёр бөмбөлөг шиг болов.",
+    "image": {
+      "file": "images/0109-confident.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a confident boy giving a thumbs up with cheeks puffed like balloons from stuffing a huge pile of wrapped candies into his mouth"
+    },
+    "example": {
+      "en": "She felt confident before speaking on stage.",
+      "mn": "Тэр тайзан дээр ярихаасаа өмнө өөртөө итгэлтэй байсан."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 110,
+    "word": "proud",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "бахархалтай",
+    "ipa": "/praʊd/",
+    "pron_mn": "праўд",
+    "keyword_mn": "пароход",
+    "mnemonic_mn": "Бахархалтай ахмад тоглоом шиг жижигхэн пароходоо далайн хамгийн том хөлөг гэж бодоод цээжээ дэлдийлгэн зогсов.",
+    "image": {
+      "file": "images/0110-proud.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a proud captain puffing out his chest on a tiny toy sized steamship floating next to giant ships"
+    },
+    "example": {
+      "en": "His parents are proud of his steady progress.",
+      "mn": "Түүний эцэг эх хүүгийнхээ тогтвортой ахицаар бахархдаг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 111,
+    "word": "advice",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "зөвлөгөө",
+    "ipa": "/ədˈvaɪs/",
+    "pron_mn": "эдвайс",
+    "keyword_mn": "эд",
+    "mnemonic_mn": "Өвөө маань \"Эд хөрөнгө биш, эрдэм цуглуул\" гэж зөвлөгөө өгөөд, өөрөө эд зүйлийн овоон дээр сууж байв.",
+    "image": {
+      "file": "images/0111-advice.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a grandpa raising one finger to give wise advice while sitting on top of a giant pile of household junk"
+    },
+    "example": {
+      "en": "Thank you for giving me such useful advice.",
+      "mn": "Надад ийм хэрэгтэй зөвлөгөө өгсөнд баярлалаа."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 112,
+    "word": "respect",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "хүндэтгэл",
+    "ipa": "/rɪˈspekt/",
+    "pron_mn": "риспэкт",
+    "keyword_mn": "спектакль",
+    "mnemonic_mn": "Спектакль үзэхээр ирсэн залуус ахмадуудыг хүндэтгэж суудлаа тавьж өгсөөр бүх залуус театрт зогсоогоор үзэв.",
+    "image": {
+      "file": "images/0112-respect.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a theater where all the young people stand respectfully while elderly grandparents sit comfortably in every seat"
+    },
+    "example": {
+      "en": "We should treat elders with warmth and respect.",
+      "mn": "Бид ахмадуудад дулаан сэтгэл, хүндэтгэлээр хандах ёстой."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 113,
+    "word": "remember",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "санах, цээжлэх",
+    "ipa": "/rɪˈmem.bər/",
+    "pron_mn": "римэмбэр",
+    "keyword_mn": "ремонт",
+    "mnemonic_mn": "Ремонтын дараа юу хаана байсныг санахын тулд ээж маань бүх эд зүйлийнхээ зургийг ханан дээр наачихжээ.",
+    "image": {
+      "file": "images/0113-remember.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a mother after renovating her apartment sticking drawings of every object on the walls so she can remember where things go"
+    },
+    "example": {
+      "en": "Review flashcards daily to remember new words.",
+      "mn": "Шинэ үгсийг санахын тулд өдөр бүр картаар давт."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 114,
+    "word": "forget",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "мартах",
+    "ipa": "/fəˈɡet/",
+    "pron_mn": "фэгэт",
+    "keyword_mn": "фагот",
+    "mnemonic_mn": "Хөгжимчин фаготоо автобусанд мартаад үлдээхэд бүх зорчигч ээлжлэн фагот үлээж аялжээ.",
+    "image": {
+      "file": "images/0114-forget.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a musician running after a bus while the passengers inside happily take turns playing the bassoon he forgot on the seat"
+    },
+    "example": {
+      "en": "Do not forget to lock the front door.",
+      "mn": "Урд хаалгаа түгжихээ бүү мартаарай."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 115,
+    "word": "explain",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "тайлбарлах",
+    "ipa": "/ɪkˈspleɪn/",
+    "pron_mn": "икспэлэйн",
+    "keyword_mn": "икс",
+    "mnemonic_mn": "Багш эрдэнэсийн газрын зураг дээрх улаан икс тэмдэг юу гэсэн үг болохыг тайлбарлаж дуусахад бүх сурагч хүрз барин гүйв.",
+    "image": {
+      "file": "images/0115-explain.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a teacher explaining a treasure map marked with a big red cross while students grab shovels and run out of the classroom"
+    },
+    "example": {
+      "en": "Could you explain this rule one more time?",
+      "mn": "Та энэ дүрмийг дахин нэг удаа тайлбарлаж өгөхгүй юу?"
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 116,
+    "word": "decide",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "шийдэх",
+    "ipa": "/dɪˈsaɪd/",
+    "pron_mn": "дисайд",
+    "keyword_mn": "сайд",
+    "mnemonic_mn": "Сайд чухал асуудлыг шийдэх гэж зоос шидтэл зоос нь ирмэгээрээ зогсчихоод сайдыг шийдвэргүй үлдээв.",
+    "image": {
+      "file": "images/0116-decide.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a minister in a suit flipping a coin to decide, the coin landing and standing on its edge, the minister staring in shock"
+    },
+    "example": {
+      "en": "We need to decide which topic to study first.",
+      "mn": "Бид эхлээд аль сэдвийг судлахаа шийдэх хэрэгтэй."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 117,
+    "word": "prepare",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "бэлтгэх",
+    "ipa": "/prɪˈpeər/",
+    "pron_mn": "припэр",
+    "keyword_mn": "перец",
+    "mnemonic_mn": "Тогооч найрт бэлтгэхдээ бүх хоолонд перец хийснээс болж зочид нь луу шиг ам ангайн гал үлээв.",
+    "image": {
+      "file": "images/0117-prepare.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a chef preparing a feast by sprinkling red hot peppers on every dish while the guests breathe fire like dragons"
+    },
+    "example": {
+      "en": "Let us prepare carefully for tomorrow's match.",
+      "mn": "Маргаашийн тулаанд нямбай бэлтгэцгээе."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 118,
+    "word": "borrow",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "зээлж авах",
+    "ipa": "/ˈbɒr.əʊ/",
+    "pron_mn": "бороу",
+    "keyword_mn": "бороо",
+    "mnemonic_mn": "Бороонд норсон хүү хөршөөсөө шүхэр зээлж авахад хөрш нь бороогоо ч хамт зээлүүлжээ.",
+    "image": {
+      "file": "images/0118-borrow.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a boy borrowing an umbrella from a neighbor while a tiny personal rain cloud follows the umbrella everywhere"
+    },
+    "example": {
+      "en": "May I borrow your dictionary for ten minutes?",
+      "mn": "Толь бичгийг чинь арван минут зээлж болох уу?"
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 119,
+    "word": "lend",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "зээлдүүлэх",
+    "ipa": "/lend/",
+    "pron_mn": "лэнд",
+    "keyword_mn": "Лэнд Крузер",
+    "mnemonic_mn": "Ах маань Лэнд Крузероо найздаа зээлдүүлтэл найз нь шавар болгоод, дээвэр дээр нь хонь суулгачихсан буцааж авчирчээ.",
+    "image": {
+      "file": "images/0119-lend.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a man shocked as his friend returns the big jeep he lent him, covered in mud with sheep riding on the roof"
+    },
+    "example": {
+      "en": "He offered to lend me an extra pen.",
+      "mn": "Тэр надад илүү үзэг зээлдүүлэхийг санал болгосон."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 120,
+    "word": "arrive",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "хүрэлцэн ирэх",
+    "ipa": "/əˈraɪv/",
+    "pron_mn": "эрайв",
+    "keyword_mn": "арай",
+    "mnemonic_mn": "Галт тэрэг арай гэж хүрэлцэн ирэхэд хүлээж байсан зорчигчид бүгд урт сахалтай болчихсон байв.",
+    "image": {
+      "file": "images/0120-arrive.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a train finally arriving at a station where all the waiting passengers have grown very long beards"
+    },
+    "example": {
+      "en": "What time does the train arrive at the station?",
+      "mn": "Галт тэрэг буудалд хэдэн цагт ирэх вэ?"
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 121,
+    "word": "promise",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "амлах",
+    "ipa": "/ˈprɒm.ɪs/",
+    "pron_mn": "промис",
+    "keyword_mn": "мис",
+    "mnemonic_mn": "Мис тэмцээний ялагч дэлхийд энх тайван авчирна гэж амлаад, тайзны ард дүүтэйгээ тоглоомоо булаацалдав.",
+    "image": {
+      "file": "images/0121-promise.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a beauty queen with a crown promising world peace on stage, then fighting with her little brother over a toy backstage"
+    },
+    "example": {
+      "en": "I promise to practice twenty words every morning.",
+      "mn": "Би өглөө бүр хорин үг давтахаа амлаж байна."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 122,
+    "word": "improve",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "сайжруулах",
+    "ipa": "/ɪmˈpruːv/",
+    "pron_mn": "импрүүв",
+    "keyword_mn": "эм",
+    "mnemonic_mn": "Эм уусан тахиа өндөглөхөө өдрөөс өдөрт сайжруулсаар долоо хоногийн дараа алтан өндөг гаргав.",
+    "image": {
+      "file": "images/0122-improve.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a proud hen after taking a pill laying a shiny golden egg while the farmer stares amazed"
+    },
+    "example": {
+      "en": "Daily reading will quickly improve your vocabulary.",
+      "mn": "Өдөр бүр унших нь таны үгийн санг хурдан сайжруулна."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 123,
+    "word": "choose",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "сонгох",
+    "ipa": "/tʃuːz/",
+    "pron_mn": "чүүз",
+    "keyword_mn": "шүүс",
+    "mnemonic_mn": "Дэлгүүрт 50 төрлийн шүүс байсан тул охин сонгох гэж өглөөнөөс орой болтол зогсоод эцэст нь ус авав.",
+    "image": {
+      "file": "images/0123-choose.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a girl frozen in front of a giant shelf of colorful juice bottles unable to choose, the sun setting outside the shop window"
+    },
+    "example": {
+      "en": "Choose the best translation among the five options.",
+      "mn": "Таван хувилбараас хамгийн зөв орчуулгыг сонгоорой."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 124,
+    "word": "compare",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "харьцуулах",
+    "ipa": "/kəmˈpeər/",
+    "pron_mn": "кэмпэр",
+    "keyword_mn": "кемп",
+    "mnemonic_mn": "Хоёр гэр бүл кемп дээр майхнаа харьцуулж, хэнийх нь том болохыг урт туузаар хэмжиж тэмцэлдэв.",
+    "image": {
+      "file": "images/0124-compare.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: two families at a summer camp comparing their tents with a long measuring tape, one tent enormous and one tiny"
+    },
+    "example": {
+      "en": "Compare both sentences to see the difference.",
+      "mn": "Ялгааг нь харахын тулд хоёр өгүүлбэрийг харьцуул."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 125,
+    "word": "early",
+    "pos": [
+      "adverb"
+    ],
+    "pos_mn": [
+      "дайвар үг"
+    ],
+    "meaning_mn": "эрт",
+    "ipa": "/ˈɜː.li/",
+    "pron_mn": "өөли",
+    "keyword_mn": "өрөм",
+    "mnemonic_mn": "Эрт босдог хүү тогоон дээрх өрөм бүгдийг нь долоочихоод, бусад нь сэрэхэд зөвхөн хоосон тогоо үлдээв.",
+    "image": {
+      "file": "images/0125-early.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: an early rising boy at dawn licking all the cream from a big pot while the rest of the family is still asleep"
+    },
+    "example": {
+      "en": "Waking up early gives you quiet study time.",
+      "mn": "Эрт сэрэх нь танд хичээллэх нам гүм цаг олгодог."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 126,
+    "word": "suddenly",
+    "pos": [
+      "adverb"
+    ],
+    "pos_mn": [
+      "дайвар үг"
+    ],
+    "meaning_mn": "гэнэт",
+    "ipa": "/ˈsʌd.ən.li/",
+    "pron_mn": "садэнли",
+    "keyword_mn": "саад",
+    "mnemonic_mn": "Морь саадны өмнө гэнэт зогсоход унаач нь ганцаараа саадыг үсэрч давав.",
+    "image": {
+      "file": "images/0126-suddenly.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a horse suddenly stopping before a jump obstacle while the rider flies over the obstacle alone"
+    },
+    "example": {
+      "en": "The sky suddenly darkened before the rain.",
+      "mn": "Бороо орохын өмнө тэнгэр гэнэт бүрхэг болсон."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 127,
+    "word": "usually",
+    "pos": [
+      "adverb"
+    ],
+    "pos_mn": [
+      "дайвар үг"
+    ],
+    "meaning_mn": "ихэвчлэн",
+    "ipa": "/ˈjuː.ʒu.ə.li/",
+    "pron_mn": "юүжуали",
+    "keyword_mn": "юүлэх",
+    "mnemonic_mn": "Ээж ихэвчлэн сүүг хувингаас аяга руу юүлдэг ч өнөөдөр санаандгүй муур руу юүлчихэв.",
+    "image": {
+      "file": "images/0127-usually.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a mother pouring milk from a bucket, accidentally pouring it onto a very surprised cat instead of into the cups"
+    },
+    "example": {
+      "en": "I usually drink green tea in the afternoon.",
+      "mn": "Би үдээс хойш ихэвчлэн ногоон цай уудаг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 128,
+    "word": "careful",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "болгоомжтой",
+    "ipa": "/ˈkeə.fəl/",
+    "pron_mn": "кээфүл",
+    "keyword_mn": "кофе",
+    "mnemonic_mn": "Болгоомжтой зөөгч халуун кофег асгахгүйн тулд маш удаан алхсаар зочинд хүргэхэд кофе нь мөс болчихсон байв.",
+    "image": {
+      "file": "images/0128-careful.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a very careful waiter tiptoeing super slowly with a cup of coffee that has already frozen into ice"
+    },
+    "example": {
+      "en": "Be careful with similar-looking English words.",
+      "mn": "Төстэй харагддаг англи үгс дээр болгоомжтой байгаарай."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 129,
+    "word": "bright",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "тод гэрэлтэй",
+    "ipa": "/braɪt/",
+    "pron_mn": "брайт",
+    "keyword_mn": "бүрээ",
+    "mnemonic_mn": "Бүрээчин өглөө нар луу бүрээгээ үлээхэд нар бүр тод гэрэлтээд бүх хүн нарны шил зүүв.",
+    "image": {
+      "file": "images/0129-bright.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a trumpeter blowing a trumpet toward the morning sun and the sun shining extra bright while everyone puts on sunglasses"
+    },
+    "example": {
+      "en": "The bright morning sunlight filled the room.",
+      "mn": "Өглөөний тод нарны гэрэл өрөөг дүүргэв."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 130,
+    "word": "quiet",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "нам гүм",
+    "ipa": "/ˈkwaɪ.ət/",
+    "pron_mn": "квайт",
+    "keyword_mn": "гуай",
+    "mnemonic_mn": "Нам гүм номын санд Дорж гуай найтаахад тавиур дээрх бүх ном \"Шшш\" гэж хуруугаа уруулдаа хүргэв.",
+    "image": {
+      "file": "images/0130-quiet.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a quiet library where an old man sneezes and all the books on the shelves put tiny fingers to their lips"
+    },
+    "example": {
+      "en": "The library is the most quiet place to focus.",
+      "mn": "Номын сан бол төвлөрөх хамгийн нам гүм газар."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 131,
+    "word": "late",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "хоцорсон, оройтсон",
+    "ipa": "/leɪt/",
+    "pron_mn": "лэйт",
+    "keyword_mn": "лаа",
+    "mnemonic_mn": "Хоцорсон аав төрсөн өдрийн бялууны лааг асаах гэж гүйж ирэхэд хүүхдүүд бялууг аль хэдийн идэж дуусгасан байв.",
+    "image": {
+      "file": "images/0131-late.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a late dad rushing in with a lighter to light birthday candles but the kids have already eaten the whole cake"
+    },
+    "example": {
+      "en": "Sorry, I am late for the lesson.",
+      "mn": "Уучлаарай, би хичээлдээ хоцорчихлоо."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 132,
+    "word": "crowded",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "хүн ихтэй, чихцэлдсэн",
+    "ipa": "/ˈkraʊ.dɪd/",
+    "pron_mn": "краудэд",
+    "keyword_mn": "хэрээ",
+    "mnemonic_mn": "Хүн ихтэй автобус дотор хэрээ ч орох зайгүй болохоор хэрээ дээвэр дээр нь суугаад явав.",
+    "image": {
+      "file": "images/0132-crowded.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a crowded bus packed with people pressed against the windows while a crow rides on the roof because there is no room inside"
+    },
+    "example": {
+      "en": "The bus gets crowded around eight in the morning.",
+      "mn": "Өглөөний найман цагийн үед автобус хүн ихтэй болдог."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 133,
+    "word": "useful",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "ашиг тустай",
+    "ipa": "/ˈjuːs.fəl/",
+    "pron_mn": "юүсфүл",
+    "keyword_mn": "юүлүүр",
+    "mnemonic_mn": "Өвөө юүлүүрийг хамгийн ашиг тустай зүйл гэдэг, учир нь түүгээр ус, сүү, бүр машиндаа бензин хүртэл юүлдэг.",
+    "image": {
+      "file": "images/0133-useful.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a grandpa proudly using one funnel for everything: pouring milk, water and fuel into his old car"
+    },
+    "example": {
+      "en": "This pocket phrasebook is very useful for travelers.",
+      "mn": "Энэ халаасны ярианы дэвтэр аялагчдад маш ашиг тустай."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 134,
+    "word": "simple",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "энгийн, хялбар",
+    "ipa": "/ˈsɪm.pəl/",
+    "pron_mn": "симпэл",
+    "keyword_mn": "сам",
+    "mnemonic_mn": "Охин 30 төрлийн гоо сайхны хэрэгсэл худалдаж авсан ч эцэст нь хамгийн энгийн модон самаараа үсээ самнав.",
+    "image": {
+      "file": "images/0134-simple.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a girl ignoring a huge pile of fancy beauty gadgets and simply combing her hair with a plain wooden comb"
+    },
+    "example": {
+      "en": "Start with simple examples before complex texts.",
+      "mn": "Нарийн бичвэрээс өмнө энгийн жишээнээс эхлээрэй."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 135,
+    "word": "common",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "түгээмэл",
+    "ipa": "/ˈkɒm.ən/",
+    "pron_mn": "комэн",
+    "keyword_mn": "хамаг",
+    "mnemonic_mn": "Хамаг хүн гар утас ширтэх нь маш түгээмэл болсон тул тосгоны тэмээ хүртэл утсаа шалгаж байна.",
+    "image": {
+      "file": "images/0135-common.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: everyone in a village staring at their phones, even a camel and a sheep looking at phones too"
+    },
+    "example": {
+      "en": "Making small mistakes is very common when learning.",
+      "mn": "Суралцах явцад жижиг алдаа гаргах нь маш түгээмэл."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 136,
+    "word": "weather",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "цаг агаар",
+    "ipa": "/ˈweð.ər/",
+    "pron_mn": "вэзэр",
+    "keyword_mn": "ваар",
+    "mnemonic_mn": "Цаг агаар өөрчлөгдөх бүрт эмээгийн ваар дахь цэцэг өнгөө сольдог тул эмээ мэдээ үзэх шаардлагагүй.",
+    "image": {
+      "file": "images/0136-weather.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a grandma looking at flowers in a vase that turn blue when it rains outside the window"
+    },
+    "example": {
+      "en": "Check the weather forecast before leaving home.",
+      "mn": "Гэрээс гарахын өмнө цаг агаарын мэдээг шалгаарай."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 137,
+    "word": "brother",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "ах, эрэгтэй дүү",
+    "ipa": "/ˈbrʌð.ər/",
+    "pron_mn": "бразэр",
+    "keyword_mn": "бар",
+    "mnemonic_mn": "Ах маань намайг айлгах гэж барын хувцас өмсөөд толинд өөрийгөө хараад өөрөө хашгиран зугтав.",
+    "image": {
+      "file": "images/0137-brother.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: an older brother in a tiger costume getting scared by his own reflection in a mirror while his little brother laughs"
+    },
+    "example": {
+      "en": "My brother is two years older than me.",
+      "mn": "Миний ах надаас хоёр насаар ах."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 138,
+    "word": "sister",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "эгч, эмэгтэй дүү",
+    "ipa": "/ˈsɪs.tər/",
+    "pron_mn": "систэр",
+    "keyword_mn": "цистерн",
+    "mnemonic_mn": "Эгч маань цистерн дүүрэн сүүтэй цай чанаад бүхэл бүтэн хорооллыг дайлав.",
+    "image": {
+      "file": "images/0138-sister.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a big sister driving a tanker truck full of milk tea and pouring cups for the whole neighborhood"
+    },
+    "example": {
+      "en": "My sister likes to draw pictures.",
+      "mn": "Миний эгч зураг зурах дуртай."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 139,
+    "word": "baby",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "нялх хүүхэд",
+    "ipa": "/ˈbeɪ.bi/",
+    "pron_mn": "бэйби",
+    "keyword_mn": "бүүвэй",
+    "mnemonic_mn": "Ээж нялх хүүхдээ бүүвэйлэхэд хүүхэд нь биш ээж нь өөрөө хурхирч унтчихав.",
+    "image": {
+      "file": "images/0139-baby.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a mother singing a lullaby to a wide awake baby while she herself falls asleep snoring"
+    },
+    "example": {
+      "en": "The baby is sleeping in the next room.",
+      "mn": "Нялх хүүхэд дараагийн өрөөнд унтаж байна."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 140,
+    "word": "teacher",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "багш",
+    "ipa": "/ˈtiː.tʃər/",
+    "pron_mn": "тийчэр",
+    "keyword_mn": "тээш",
+    "mnemonic_mn": "Манай багш хичээлдээ ном биш тээш дүүрэн шоколад авчирдаг болохоор бүх сурагч эрт ирдэг.",
+    "image": {
+      "file": "images/0140-teacher.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a teacher arriving at class with a huge suitcase full of chocolate while students rush in excitedly"
+    },
+    "example": {
+      "en": "Our teacher explains everything clearly.",
+      "mn": "Манай багш бүх зүйлийг ойлгомжтой тайлбарладаг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 141,
+    "word": "doctor",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "эмч",
+    "ipa": "/ˈdɒk.tər/",
+    "pron_mn": "доктор",
+    "keyword_mn": "довтлох",
+    "mnemonic_mn": "Эмч дуудлагад морио довтлуулан очиход өвчтөн нь айгаад орноосоо үсрэн босож эдгэрчихэв.",
+    "image": {
+      "file": "images/0141-doctor.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a doctor with a stethoscope galloping fast on a horse to a ger while the sick patient jumps out of bed in surprise"
+    },
+    "example": {
+      "en": "You should see a doctor about your cough.",
+      "mn": "Ханиадныхаа талаар эмчид үзүүлэх хэрэгтэй."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 142,
+    "word": "guest",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "зочин",
+    "ipa": "/ɡest/",
+    "pron_mn": "гэст",
+    "keyword_mn": "гэсэх",
+    "mnemonic_mn": "Хүйтнээс орж ирсэн зочин зуухны дэргэд гэсэх хооронд ширээн дээрх бүх хоолыг идэж дуусгав.",
+    "image": {
+      "file": "images/0142-guest.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a frozen guest covered in ice thawing next to the stove while eating all the food on the table"
+    },
+    "example": {
+      "en": "We have a guest for dinner tonight.",
+      "mn": "Өнөө орой манайд оройн хоолонд зочин ирнэ."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 143,
+    "word": "face",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "нүүр, царай",
+    "ipa": "/feɪs/",
+    "pron_mn": "фэйс",
+    "keyword_mn": "хайс",
+    "mnemonic_mn": "Сониуч хүү хөршийнх рүү шагайх гэж нүүрээ хайсны завсраар шургуулаад нүүр нь гацчихав.",
+    "image": {
+      "file": "images/0143-face.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a curious boy with his face stuck between wooden fence boards while peeking into the neighbor yard"
+    },
+    "example": {
+      "en": "Wash your face before breakfast.",
+      "mn": "Өглөөний цайнаас өмнө нүүрээ угаа."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 144,
+    "word": "mouth",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "ам",
+    "ipa": "/maʊθ/",
+    "pron_mn": "маус",
+    "keyword_mn": "маус",
+    "mnemonic_mn": "Бяцхан хүү компьютерын маусыг амандаа хийгээд \"Энэ хулгана яагаад амтгүй юм бэ\" гэж гайхав.",
+    "image": {
+      "file": "images/0144-mouth.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a toddler trying to fit a computer mouse into his wide open mouth while a cat watches confused"
+    },
+    "example": {
+      "en": "Do not speak with your mouth full.",
+      "mn": "Амаа дүүрэн хоолтой байхдаа бүү ярь."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 145,
+    "word": "tired",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "ядарсан",
+    "ipa": "/ˈtaɪ.əd/",
+    "pron_mn": "тайэд",
+    "keyword_mn": "тайз",
+    "mnemonic_mn": "Ядарсан дуучин тайз дээр дуулж байгаад микрофоноо тэврээд унтчихав.",
+    "image": {
+      "file": "images/0145-tired.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: an exhausted singer falling asleep on stage hugging the microphone while the audience stares"
+    },
+    "example": {
+      "en": "I am tired after the long trip.",
+      "mn": "Урт аяллын дараа би ядарчихлаа."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 146,
+    "word": "hungry",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "өлссөн",
+    "ipa": "/ˈhʌŋ.ɡri/",
+    "pron_mn": "хангри",
+    "keyword_mn": "Хангай",
+    "mnemonic_mn": "Өлссөн баавгай Хангайн нурууны бүх жимсийг ганц өдөрт идэж дуусгав.",
+    "image": {
+      "file": "images/0146-hungry.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a very hungry bear eating every berry on the green Khangai mountains, bushes left completely bare"
+    },
+    "example": {
+      "en": "The kids are hungry after school.",
+      "mn": "Хүүхдүүд хичээлийн дараа өлсдөг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 147,
+    "word": "angry",
+    "pos": [
+      "adjective"
+    ],
+    "pos_mn": [
+      "тэмдэг нэр"
+    ],
+    "meaning_mn": "ууртай, уурласан",
+    "ipa": "/ˈæŋ.ɡri/",
+    "pron_mn": "энгри",
+    "keyword_mn": "ангир",
+    "mnemonic_mn": "Уурласан ангир шувуу нуурын эрэгт машинаа угааж байсан хүнийг хөөж явуулав.",
+    "image": {
+      "file": "images/0147-angry.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: an angry orange shelduck chasing away a man who was washing his car at the lake shore"
+    },
+    "example": {
+      "en": "Mom was angry about the broken window.",
+      "mn": "Хагарсан цонхны төлөө ээж уурласан."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 148,
+    "word": "sit",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "суух",
+    "ipa": "/sɪt/",
+    "pron_mn": "сит",
+    "keyword_mn": "ситро",
+    "mnemonic_mn": "Өвөө ситро ууж суутал хийнээс нь болоод сандалтайгаа хамт агаарт хөөрчихөв.",
+    "image": {
+      "file": "images/0148-sit.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a grandpa sitting on a chair drinking fizzy soda while the bubbles lift him and the chair into the air"
+    },
+    "example": {
+      "en": "Please sit down and open your books.",
+      "mn": "Сууж, номоо нээнэ үү."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 149,
+    "word": "stand",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "зогсох",
+    "ipa": "/stænd/",
+    "pron_mn": "стэнд",
+    "keyword_mn": "стенд",
+    "mnemonic_mn": "Багш ангид ороход хананы стенд дээрх зургууд хүртэл жижиг хөлтэй болоод босоод зогсов.",
+    "image": {
+      "file": "images/0149-stand.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a classroom wall board where the pictures grow tiny legs and stand up when the teacher walks in"
+    },
+    "example": {
+      "en": "We stand in line for the bus.",
+      "mn": "Бид автобусны дараалалд зогсдог."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 150,
+    "word": "wait",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "хүлээх",
+    "ipa": "/weɪt/",
+    "pron_mn": "вэйт",
+    "keyword_mn": "уйтгар",
+    "mnemonic_mn": "Эмнэлэгт удаан хүлээсэн өвөө уйтгарлаад хүлээлгийн танхимд өөрийнхөө модон хөшөөг сийлчихжээ.",
+    "image": {
+      "file": "images/0150-wait.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: an old man waiting so long in a waiting room that he carved a wooden statue of himself"
+    },
+    "example": {
+      "en": "Wait for me at the door.",
+      "mn": "Намайг хаалганы дэргэд хүлээ."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 151,
+    "word": "sell",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "зарах, худалдах",
+    "ipa": "/sel/",
+    "pron_mn": "сэл",
+    "keyword_mn": "сэлэм",
+    "mnemonic_mn": "Худалдаачин сэлмээ зарах гэж агаарт шидсэн тарвасыг сэлмээрээ хэрчиж үзүүлэв.",
+    "image": {
+      "file": "images/0151-sell.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a market trader selling swords by slicing watermelons in the air while the crowd watches amazed"
+    },
+    "example": {
+      "en": "They sell fresh bread every morning.",
+      "mn": "Тэд өглөө бүр шинэхэн талх зардаг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 152,
+    "word": "send",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "илгээх, явуулах",
+    "ipa": "/send/",
+    "pron_mn": "сэнд",
+    "keyword_mn": "сэнтий",
+    "mnemonic_mn": "Хаан сэнтийнээсээ захидал илгээхэд элч нь морь биш бяцхан тагтаа унаад нисэв.",
+    "image": {
+      "file": "images/0152-send.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a king on his throne sending a letter while the tiny messenger flies away riding a pigeon"
+    },
+    "example": {
+      "en": "I will send you a message tonight.",
+      "mn": "Би чамд өнөө орой мессеж илгээнэ."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 153,
+    "word": "carry",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "зөөх, авч явах",
+    "ipa": "/ˈkær.i/",
+    "pron_mn": "кэри",
+    "keyword_mn": "хэрэм",
+    "mnemonic_mn": "Хэрэм өвлийн хүнсээ зөөхийн тулд самраар чихсэн аварга үүргэвч үүрээд хөлс нь цувж явав.",
+    "image": {
+      "file": "images/0153-carry.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a sweating squirrel carrying a giant backpack stuffed with nuts"
+    },
+    "example": {
+      "en": "Can you help me carry this box?",
+      "mn": "Энэ хайрцгийг зөөхөд надад туслаач?"
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 154,
+    "word": "catch",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "барьж авах",
+    "ipa": "/kætʃ/",
+    "pron_mn": "кэтч",
+    "keyword_mn": "хэтэвч",
+    "mnemonic_mn": "Загасчин дэгээгээрээ загас биш хэтэвч барьж аваад, доторх мөнгөөр нь загас худалдаж авав.",
+    "image": {
+      "file": "images/0154-catch.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a fisherman catching a fat wallet on his hook instead of a fish"
+    },
+    "example": {
+      "en": "The dog jumped to catch the ball.",
+      "mn": "Нохой бөмбөгийг барьж авахаар үсрэв."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 155,
+    "word": "throw",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "шидэх",
+    "ipa": "/θrəʊ/",
+    "pron_mn": "сроу",
+    "keyword_mn": "шороо",
+    "mnemonic_mn": "Хүүхдүүд бие бие рүүгээ шороо шидэлцсээр бүгд шороон хөшөө шиг болчихов.",
+    "image": {
+      "file": "images/0155-throw.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: kids throwing dirt at each other until they all look like mud statues"
+    },
+    "example": {
+      "en": "Do not throw stones at the birds.",
+      "mn": "Шувууд руу чулуу бүү шид."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 156,
+    "word": "swim",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "сэлэх",
+    "ipa": "/swɪm/",
+    "pron_mn": "свим",
+    "keyword_mn": "свитер",
+    "mnemonic_mn": "Эмээ маань сэлэхдээ хүртэл ноосон свитер өмсдөг тул усан сангийн ус бүхэлдээ ноостой болчихов.",
+    "image": {
+      "file": "images/0156-swim.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a grandma swimming in a pool wearing a thick knitted sweater, wool floating everywhere"
+    },
+    "example": {
+      "en": "Can you swim in deep water?",
+      "mn": "Чи гүн усанд сэлж чадах уу?"
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 157,
+    "word": "sing",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "дуулах",
+    "ipa": "/sɪŋ/",
+    "pron_mn": "синг",
+    "keyword_mn": "шингэн",
+    "mnemonic_mn": "Дуучин дуулахдаа хэтэрхий өндөр нот авсан тул шилэн аяга хагарч, доторх шингэн нь үзэгчид рүү цацагдав.",
+    "image": {
+      "file": "images/0157-sing.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a singer hitting a high note so powerful that glasses burst and juice splashes onto the audience"
+    },
+    "example": {
+      "en": "She likes to sing in the shower.",
+      "mn": "Тэр шүршүүрт орохдоо дуулах дуртай."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 158,
+    "word": "dance",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "бүжиглэх",
+    "ipa": "/dɑːns/",
+    "pron_mn": "данс",
+    "keyword_mn": "данс",
+    "mnemonic_mn": "Цалин нь дансандаа ороход аав маань банкны үүдэнд галзуу юм шиг бүжиглэж эхлэв.",
+    "image": {
+      "file": "images/0158-dance.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a dad dancing wildly in front of a bank with coins flying around him"
+    },
+    "example": {
+      "en": "Let us dance at the party.",
+      "mn": "Үдэшлэг дээр бүжиглэцгээе."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 159,
+    "word": "cook",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "хоол хийх, чанах",
+    "ipa": "/kʊk/",
+    "pron_mn": "күк",
+    "keyword_mn": "хөх",
+    "mnemonic_mn": "Аав анх удаа хоол хийхэд тогоон дахь бүх хоол нь тод хөх өнгөтэй болчихжээ.",
+    "image": {
+      "file": "images/0159-cook.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a dad cooking for the first time while everything in the pot has turned bright blue and the family is shocked"
+    },
+    "example": {
+      "en": "My father can cook delicious soup.",
+      "mn": "Миний аав амттай шөл хийж чаддаг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 160,
+    "word": "wash",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "угаах",
+    "ipa": "/wɒʃ/",
+    "pron_mn": "вош",
+    "keyword_mn": "босс",
+    "mnemonic_mn": "Босс маань машинаа өөрөө угаана гэж зүтгээд хөөсөн уулан дунд живчихэв.",
+    "image": {
+      "file": "images/0160-wash.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a boss in a suit washing his car and getting buried in a mountain of soap bubbles"
+    },
+    "example": {
+      "en": "Wash your hands before you eat.",
+      "mn": "Хоол идэхээсээ өмнө гараа угаа."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 161,
+    "word": "laugh",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "инээх",
+    "ipa": "/lɑːf/",
+    "pron_mn": "лааф",
+    "keyword_mn": "лааз",
+    "mnemonic_mn": "Хүү лааз өшиглөх гэж байгаад хальтирч унахад лааз хүртэл инээд алдав.",
+    "image": {
+      "file": "images/0161-laugh.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a boy slipping while kicking a tin can and the can itself laughing at him"
+    },
+    "example": {
+      "en": "Everyone began to laugh at the joke.",
+      "mn": "Хошигнолыг сонсоод бүгд инээж эхлэв."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 162,
+    "word": "cry",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "уйлах",
+    "ipa": "/kraɪ/",
+    "pron_mn": "край",
+    "keyword_mn": "кран",
+    "mnemonic_mn": "Барилгын крануудын орой дээр гацсан муур уйлахад кранчин ч бас хамт уйлав.",
+    "image": {
+      "file": "images/0162-cry.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a kitten stuck on top of a construction crane crying while the crane operator cries along with it"
+    },
+    "example": {
+      "en": "The little boy began to cry loudly.",
+      "mn": "Бяцхан хүү чанга уйлж эхлэв."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 163,
+    "word": "ask",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "асуух",
+    "ipa": "/ɑːsk/",
+    "pron_mn": "аск",
+    "keyword_mn": "асгах",
+    "mnemonic_mn": "Сурагч асуулт асуух гэж гараа өргөхдөө ширээн дээрх шүүсээ багш руу асгачихав.",
+    "image": {
+      "file": "images/0163-ask.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a student raising his hand to ask a question and knocking a glass of juice onto the teacher"
+    },
+    "example": {
+      "en": "May I ask you a question?",
+      "mn": "Би танаас нэг юм асууж болох уу?"
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 164,
+    "word": "travel",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "аялах",
+    "ipa": "/ˈtræv.əl/",
+    "pron_mn": "трэвэл",
+    "keyword_mn": "тэрэг",
+    "mnemonic_mn": "Өвөө тэмээн тэргээр дэлхийг тойрон аялахаар гараад 30 жилийн дараа буцаж иржээ.",
+    "image": {
+      "file": "images/0164-travel.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: an old man traveling around the world on a camel cart, passing deserts, snowy mountains and the sea"
+    },
+    "example": {
+      "en": "I want to travel to many countries.",
+      "mn": "Би олон оронд аялахыг хүсдэг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 165,
+    "word": "climb",
+    "pos": [
+      "verb"
+    ],
+    "pos_mn": [
+      "үйл үг"
+    ],
+    "meaning_mn": "авирах",
+    "ipa": "/klaɪm/",
+    "pron_mn": "клайм",
+    "keyword_mn": "хайлмаг",
+    "mnemonic_mn": "Уулчин хадан хясаа руу авирч байтал халаасан дахь хайлмаг нь хайлаад гар нь халтирч эхлэв.",
+    "image": {
+      "file": "images/0165-climb.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a mountain climber slipping on a cliff because the butter in his pocket melted all over his hands"
+    },
+    "example": {
+      "en": "The children like to climb trees.",
+      "mn": "Хүүхдүүд модонд авирах дуртай."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 166,
+    "word": "always",
+    "pos": [
+      "adverb"
+    ],
+    "pos_mn": [
+      "дайвар үг"
+    ],
+    "meaning_mn": "үргэлж, байнга",
+    "ipa": "/ˈɔːl.weɪz/",
+    "pron_mn": "олвэйз",
+    "keyword_mn": "олвоос",
+    "mnemonic_mn": "Ээж маань түлхүүрээ үргэлж алддаг ч олвоос үргэлж хөргөгчөөс бяслагны хажуугаас олдог.",
+    "image": {
+      "file": "images/0166-always.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a mother finding her lost keys inside the refrigerator next to the cheese, again"
+    },
+    "example": {
+      "en": "She always drinks tea in the morning.",
+      "mn": "Тэр өглөө бүр үргэлж цай уудаг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 167,
+    "word": "never",
+    "pos": [
+      "adverb"
+    ],
+    "pos_mn": [
+      "дайвар үг"
+    ],
+    "meaning_mn": "хэзээ ч ...гүй",
+    "ipa": "/ˈnev.ər/",
+    "pron_mn": "нэвэр",
+    "keyword_mn": "нэвтэрхий",
+    "mnemonic_mn": "Тэр хүү нэвтэрхий толийг хэзээ ч уншиж үзээгүй ч жил бүр дэр болгон хэрэглэдэг.",
+    "image": {
+      "file": "images/0167-never.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a boy happily sleeping with a giant dusty encyclopedia as his pillow"
+    },
+    "example": {
+      "en": "I never eat fast food.",
+      "mn": "Би хэзээ ч түргэн хоол иддэггүй."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 168,
+    "word": "today",
+    "pos": [
+      "adverb"
+    ],
+    "pos_mn": [
+      "дайвар үг"
+    ],
+    "meaning_mn": "өнөөдөр",
+    "ipa": "/təˈdeɪ/",
+    "pron_mn": "тудэй",
+    "keyword_mn": "тоодог",
+    "mnemonic_mn": "Өнөөдөр манай хашаанд аварга тоодог орж ирээд, бүх хүн гайхан зураг авцгаав.",
+    "image": {
+      "file": "images/0168-today.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a big bustard bird proudly walking into a family yard while everyone takes photos"
+    },
+    "example": {
+      "en": "Today is a beautiful sunny day.",
+      "mn": "Өнөөдөр нартай сайхан өдөр байна."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 169,
+    "word": "tomorrow",
+    "pos": [
+      "adverb"
+    ],
+    "pos_mn": [
+      "дайвар үг"
+    ],
+    "meaning_mn": "маргааш",
+    "ipa": "/təˈmɒr.əʊ/",
+    "pron_mn": "тумороу",
+    "keyword_mn": "төмөр",
+    "mnemonic_mn": "Залхуу хүү бүх даалгавраа \"маргааш хийнэ\" гэж төмөр авдартаа хийсээр авдар нь дэлбэрэв.",
+    "image": {
+      "file": "images/0169-tomorrow.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a lazy boy stuffing unfinished homework into an iron chest until the chest bursts open"
+    },
+    "example": {
+      "en": "We have an exam tomorrow.",
+      "mn": "Маргааш бид шалгалттай."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 170,
+    "word": "yesterday",
+    "pos": [
+      "adverb"
+    ],
+    "pos_mn": [
+      "дайвар үг"
+    ],
+    "meaning_mn": "өчигдөр",
+    "ipa": "/ˈjes.tə.deɪ/",
+    "pron_mn": "естэдэй",
+    "keyword_mn": "ес",
+    "mnemonic_mn": "Өчигдөр би ес аяга зайрмаг идсэн болохоор өнөөдөр хоолой минь мөс шиг хөлдчихжээ.",
+    "image": {
+      "file": "images/0170-yesterday.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a boy with a frozen icy throat sitting next to nine empty ice cream cups"
+    },
+    "example": {
+      "en": "I saw your brother yesterday.",
+      "mn": "Би өчигдөр чиний ахыг харсан."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 171,
+    "word": "morning",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "өглөө",
+    "ipa": "/ˈmɔː.nɪŋ/",
+    "pron_mn": "мооний",
+    "keyword_mn": "морь",
+    "mnemonic_mn": "Өглөө бүр манай морь сэрүүлэгний оронд цонхны гадаа янцгааж бүх айлыг сэрээдэг.",
+    "image": {
+      "file": "images/0171-morning.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a horse neighing loudly at sunrise like an alarm clock while a whole family jumps out of bed"
+    },
+    "example": {
+      "en": "I go for a walk every morning.",
+      "mn": "Би өглөө бүр алхдаг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 172,
+    "word": "night",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "шөнө",
+    "ipa": "/naɪt/",
+    "pron_mn": "найт",
+    "keyword_mn": "найтаах",
+    "mnemonic_mn": "Шөнө дунд өвөө чанга найтаахад тэнгэрийн бүх од нэгэн зэрэг унтарчихав.",
+    "image": {
+      "file": "images/0172-night.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: an old man sneezing loudly at night and all the stars in the sky blinking out while the moon covers its ears"
+    },
+    "example": {
+      "en": "The city is quiet at night.",
+      "mn": "Шөнөдөө хот нам гүм байдаг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 173,
+    "word": "table",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "ширээ",
+    "ipa": "/ˈteɪ.bəl/",
+    "pron_mn": "тэйбэл",
+    "keyword_mn": "тэвш",
+    "mnemonic_mn": "Ширээгүй болохоор бид модон тэвшийг ширээ болгож найр хийхэд хонинууд атаархан харав.",
+    "image": {
+      "file": "images/0173-table.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a family feasting around a long wooden trough used as a table while jealous sheep look on"
+    },
+    "example": {
+      "en": "Put the plates on the table.",
+      "mn": "Тавгуудыг ширээн дээр тавь."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 174,
+    "word": "chair",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "сандал",
+    "ipa": "/tʃeər/",
+    "pron_mn": "чээр",
+    "keyword_mn": "чээж",
+    "mnemonic_mn": "Сандал эвдрэхэд бөх чээжээ тэлээд хүүхдүүдэд суух сандал болж өгөв.",
+    "image": {
+      "file": "images/0174-chair.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a big wrestler puffing out his broad chest so that small children can sit on it like a chair"
+    },
+    "example": {
+      "en": "This chair is very comfortable.",
+      "mn": "Энэ сандал маш тухтай."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 175,
+    "word": "bed",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "ор",
+    "ipa": "/bed/",
+    "pron_mn": "бэд",
+    "keyword_mn": "бэдрэх",
+    "mnemonic_mn": "Ээж хүүгээ бүх гэрээр бэдэртэл хүү нь орны доор нохойгоо тэврээд унтаж байв.",
+    "image": {
+      "file": "images/0175-bed.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a mother searching everywhere while her son sleeps under the bed hugging the dog"
+    },
+    "example": {
+      "en": "I go to bed at ten o'clock.",
+      "mn": "Би арван цагт унтдаг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 176,
+    "word": "cup",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "аяга",
+    "ipa": "/kʌp/",
+    "pron_mn": "кап",
+    "keyword_mn": "хап",
+    "mnemonic_mn": "Нохой аягатай сүүг хап хийгээд, аяга нь хамарт нь углаатай үлдэв.",
+    "image": {
+      "file": "images/0176-cup.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a dog snapping up a cup of milk with the cup stuck on its nose"
+    },
+    "example": {
+      "en": "Would you like a cup of tea?",
+      "mn": "Нэг аяга цай уух уу?"
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 177,
+    "word": "key",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "түлхүүр",
+    "ipa": "/kiː/",
+    "pron_mn": "кий",
+    "keyword_mn": "хий",
+    "mnemonic_mn": "Хийн бөмбөлөгт уясан түлхүүр нисээд, аав дээвэр дээр гарч хөөцөлдөв.",
+    "image": {
+      "file": "images/0177-key.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a key tied to a balloon floating away while a dad climbs onto the roof chasing it"
+    },
+    "example": {
+      "en": "I lost the key to my room.",
+      "mn": "Би өрөөнийхөө түлхүүрийг гээчихлээ."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 178,
+    "word": "bag",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "цүнх, уут",
+    "ipa": "/bæɡ/",
+    "pron_mn": "бэг",
+    "keyword_mn": "баг",
+    "mnemonic_mn": "Сагсан бөмбөгийн баг бүхэлдээ нэг цүнхэнд багтаад, толгойнууд нь цухуйсаар автобусанд суув.",
+    "image": {
+      "file": "images/0178-bag.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a whole basketball team squeezed inside one giant bag with their heads poking out"
+    },
+    "example": {
+      "en": "My bag is full of books.",
+      "mn": "Миний цүнх номоор дүүрэн."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 179,
+    "word": "shoe",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "гутал",
+    "ipa": "/ʃuː/",
+    "pron_mn": "шүү",
+    "keyword_mn": "шүүр",
+    "mnemonic_mn": "Эмээ шалаа шүүрээр шүүрдэж байгаад өөрийнхөө гутлыг хамт шүүрдээд гадаа гаргачихав.",
+    "image": {
+      "file": "images/0179-shoe.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a grandma sweeping with a broom and accidentally sweeping her own shoe out the door"
+    },
+    "example": {
+      "en": "These shoes are too small for me.",
+      "mn": "Энэ гутал надад хэтэрхий жижиг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 180,
+    "word": "kitchen",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "гал тогоо",
+    "ipa": "/ˈkɪtʃ.ɪn/",
+    "pron_mn": "кичин",
+    "keyword_mn": "хичээл",
+    "mnemonic_mn": "Ээж гал тогоогоо хичээлийн анги болгоод хүүхдүүдэд банш чимхэх хичээл заав.",
+    "image": {
+      "file": "images/0180-kitchen.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a mother teaching a class of kids how to fold dumplings in a kitchen with flour everywhere"
+    },
+    "example": {
+      "en": "Mom is cooking in the kitchen.",
+      "mn": "Ээж гал тогоонд хоол хийж байна."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 181,
+    "word": "picture",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "зураг",
+    "ipa": "/ˈpɪk.tʃər/",
+    "pron_mn": "пикчэр",
+    "keyword_mn": "пицца",
+    "mnemonic_mn": "Зураач хүрээтэй зурагт пицца зурсан тул өлссөн үзэгчид зургийг хазах гэж оролдов.",
+    "image": {
+      "file": "images/0181-picture.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: hungry museum visitors trying to bite a framed painting of a pizza"
+    },
+    "example": {
+      "en": "She drew a picture of her family.",
+      "mn": "Тэр гэр бүлийнхээ зургийг зурсан."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 182,
+    "word": "phone",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "утас",
+    "ipa": "/fəʊn/",
+    "pron_mn": "фоун",
+    "keyword_mn": "фонтан",
+    "mnemonic_mn": "Хүү утсаа фонтан руу унагаахад усан доороос утас нь хөөс гаргасаар дуугарч байв.",
+    "image": {
+      "file": "images/0182-phone.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a boy staring as his phone rings and vibrates underwater in a fountain making bubbles"
+    },
+    "example": {
+      "en": "Please turn off your phone in class.",
+      "mn": "Ангид утсаа унтраана уу."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 183,
+    "word": "rain",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "бороо",
+    "ipa": "/reɪn/",
+    "pron_mn": "рэйн",
+    "keyword_mn": "ирэн",
+    "mnemonic_mn": "Бороо ирэн ирэн хүчтэй ороход манай нохой цувны минь дотор шургаж ордог.",
+    "image": {
+      "file": "images/0183-rain.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: heavy rain pouring while a wet dog squeezes inside a boy raincoat with him"
+    },
+    "example": {
+      "en": "Take an umbrella, it looks like rain.",
+      "mn": "Шүхрээ ав, бороо орох бололтой."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 184,
+    "word": "snow",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "цас",
+    "ipa": "/snəʊ/",
+    "pron_mn": "сноу",
+    "keyword_mn": "сүнс",
+    "mnemonic_mn": "Цасан шуурганд алхсан эмээ бүхэлдээ цагаан болж, хүүхдүүд сүнс ирлээ гэж зугтав.",
+    "image": {
+      "file": "images/0184-snow.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a grandma completely covered in snow while kids run away thinking she is a ghost"
+    },
+    "example": {
+      "en": "The mountains are covered with snow.",
+      "mn": "Уулс цасаар хучигдсан байна."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 185,
+    "word": "wind",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "салхи",
+    "ipa": "/wɪnd/",
+    "pron_mn": "винд",
+    "keyword_mn": "вандан",
+    "mnemonic_mn": "Салхи вандан сандал дээр суусан хүмүүсийн малгайг нэг нэгээр нь хийсгээд шувуудад өмсгөчихөв.",
+    "image": {
+      "file": "images/0185-wind.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: the wind blowing hats off people sitting on a park bench and dropping the hats onto the heads of birds"
+    },
+    "example": {
+      "en": "The wind is very strong today.",
+      "mn": "Өнөөдөр салхи маш хүчтэй байна."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 186,
+    "word": "river",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "гол, мөрөн",
+    "ipa": "/ˈrɪv.ər/",
+    "pron_mn": "ривэр",
+    "keyword_mn": "ирвэс",
+    "mnemonic_mn": "Ирвэс голын нөгөө эрэгт гарах гэж чулуун дээгүүр үсэрч явтал хальтраад гол руу унав.",
+    "image": {
+      "file": "images/0186-river.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a snow leopard slipping off stones into a river while fish laugh at it"
+    },
+    "example": {
+      "en": "We swam in the river in summer.",
+      "mn": "Бид зун голд сэлсэн."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 187,
+    "word": "mountain",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "уул",
+    "ipa": "/ˈmaʊn.tɪn/",
+    "pron_mn": "маунтин",
+    "keyword_mn": "мантуун",
+    "mnemonic_mn": "Ээж маань уул шиг өндөр мантуун жигнэж, оройг нь авахын тулд шатаар авирав.",
+    "image": {
+      "file": "images/0187-mountain.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a mother steaming a mountain sized stack of buns and climbing a ladder to reach the top"
+    },
+    "example": {
+      "en": "We climbed the mountain last summer.",
+      "mn": "Бид өнгөрсөн зун ууланд авирсан."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 188,
+    "word": "sea",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "далай",
+    "ipa": "/siː/",
+    "pron_mn": "сий",
+    "keyword_mn": "сийлэх",
+    "mnemonic_mn": "Далайн эрэг дээр хүү элсээр луу сийлтэл давалгаа ирээд луу нь амилж далай руу сэлээд явчихав.",
+    "image": {
+      "file": "images/0188-sea.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a boy carving a sand dragon on a beach and a wave makes the dragon come alive and swim into the sea"
+    },
+    "example": {
+      "en": "The sea is warm in August.",
+      "mn": "Наймдугаар сард далай дулаахан байдаг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 189,
+    "word": "flower",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "цэцэг",
+    "ipa": "/ˈflaʊ.ər/",
+    "pron_mn": "флауэр",
+    "keyword_mn": "луу",
+    "mnemonic_mn": "Аймшигт луу цэцэг үнэрлээд найтаахад бүх цэцгийн дэлбээ салхинд хийсэв.",
+    "image": {
+      "file": "images/0189-flower.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a fierce dragon sniffing a flower and sneezing petals everywhere"
+    },
+    "example": {
+      "en": "She gave her mother a flower.",
+      "mn": "Тэр ээждээ цэцэг өгсөн."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 190,
+    "word": "bird",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "шувуу",
+    "ipa": "/bɜːd/",
+    "pron_mn": "бөөд",
+    "keyword_mn": "бөдөн",
+    "mnemonic_mn": "Бөдөн шувуу өөрийгөө бүргэд гэж бодоод хадан дээрээс нисэхэд ердөө хоёр алхам нисэв.",
+    "image": {
+      "file": "images/0190-bird.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a tiny quail jumping off a cliff thinking it is an eagle while a real eagle covers its face"
+    },
+    "example": {
+      "en": "A bird is singing in the tree.",
+      "mn": "Модон дээр шувуу жиргэж байна."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 191,
+    "word": "horse",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "морь",
+    "ipa": "/hɔːs/",
+    "pron_mn": "хоос",
+    "keyword_mn": "хос",
+    "mnemonic_mn": "Хос морь уралдаанд яг зэрэг барианд орж, хоёулаа алтан медаль зүүв.",
+    "image": {
+      "file": "images/0191-horse.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: two identical horses crossing the finish line at the exact same moment, both wearing gold medals"
+    },
+    "example": {
+      "en": "My grandfather has a fast horse.",
+      "mn": "Миний өвөө хурдан морьтой."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 192,
+    "word": "fish",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "загас",
+    "ipa": "/fɪʃ/",
+    "pron_mn": "фиш",
+    "keyword_mn": "бишгүүр",
+    "mnemonic_mn": "Загас усан дор бишгүүр үлээхэд нуурын бүх загас бүжиглэж эхлэв.",
+    "image": {
+      "file": "images/0192-fish.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a fish playing a small flute underwater while the other fish dance around it"
+    },
+    "example": {
+      "en": "We caught a big fish in the lake.",
+      "mn": "Бид нуураас том загас барьсан."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 193,
+    "word": "sky",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "тэнгэр",
+    "ipa": "/skaɪ/",
+    "pron_mn": "скай",
+    "keyword_mn": "шагай",
+    "mnemonic_mn": "Хүүхдүүд шагай шидэхэд нэг шагай нь тэнгэр өөд нисээд од болон гэрэлтэв.",
+    "image": {
+      "file": "images/0193-sky.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: kids playing with knucklebones while one bone flies up into the sky and becomes a shining star"
+    },
+    "example": {
+      "en": "The sky is blue and clear today.",
+      "mn": "Өнөөдөр тэнгэр цэлмэг цэнхэр байна."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 194,
+    "word": "sheep",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "хонь",
+    "ipa": "/ʃiːp/",
+    "pron_mn": "шийп",
+    "keyword_mn": "шил",
+    "mnemonic_mn": "Шил зүүсэн ухаалаг хонь бүх сүргээ номын сан руу дагуулав.",
+    "image": {
+      "file": "images/0194-sheep.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a smart sheep wearing glasses leading the whole flock into a library"
+    },
+    "example": {
+      "en": "The sheep are eating grass.",
+      "mn": "Хонинууд өвс идэж байна."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 195,
+    "word": "milk",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "сүү",
+    "ipa": "/mɪlk/",
+    "pron_mn": "милк",
+    "keyword_mn": "мэлхий",
+    "mnemonic_mn": "Мэлхий сүүтэй хувин руу үсэрч ороод, сүүг цөцгий болтол сэлсээр гарч ирэв.",
+    "image": {
+      "file": "images/0195-milk.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a frog paddling in a bucket of milk so hard that the milk turns into butter"
+    },
+    "example": {
+      "en": "I drink a glass of milk every day.",
+      "mn": "Би өдөр бүр нэг аяга сүү уудаг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 196,
+    "word": "meat",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "мах",
+    "ipa": "/miːt/",
+    "pron_mn": "мийт",
+    "keyword_mn": "митинг",
+    "mnemonic_mn": "Махны дэлгүүрийн гадаа нохойнууд яс өргөөд мах нэхэж митинг хийв.",
+    "image": {
+      "file": "images/0196-meat.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a group of dogs protesting outside a butcher shop holding up bones"
+    },
+    "example": {
+      "en": "Mongolians eat a lot of meat in winter.",
+      "mn": "Монголчууд өвөлдөө их мах иддэг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 197,
+    "word": "egg",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "өндөг",
+    "ipa": "/eɡ/",
+    "pron_mn": "эг",
+    "keyword_mn": "эгц",
+    "mnemonic_mn": "Тахиа эгц хадан дээр өндөглөхөд өндөг нь өнхөрсөөр доор нь байсан хайруулын тавган дээр хагарч шарагдав.",
+    "image": {
+      "file": "images/0197-egg.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a hen laying an egg on a steep cliff, the egg rolling down and landing as a fried egg in a pan at the bottom"
+    },
+    "example": {
+      "en": "I had two eggs for breakfast.",
+      "mn": "Би өглөөний цайндаа хоёр өндөг идсэн."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 198,
+    "word": "apple",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "алим",
+    "ipa": "/ˈæp.əl/",
+    "pron_mn": "эпл",
+    "keyword_mn": "эвлэрэх",
+    "mnemonic_mn": "Хэрэлдсэн хоёр хүүхэд ганц алимыг хувааж идээд эвлэрэв.",
+    "image": {
+      "file": "images/0198-apple.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: two kids who were fighting now sharing one apple and smiling at each other"
+    },
+    "example": {
+      "en": "An apple a day is good for you.",
+      "mn": "Өдөрт нэг алим идэх нь танд сайн."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 199,
+    "word": "tea",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "цай",
+    "ipa": "/tiː/",
+    "pron_mn": "тий",
+    "keyword_mn": "тийм",
+    "mnemonic_mn": "Эмээ \"Цай уух уу?\" гэж асуухад бүгд \"Тийм\" гэж хариулсаар эмээ зуун аяга цай аягалав.",
+    "image": {
+      "file": "images/0199-tea.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a grandma pouring tea into a hundred cups for a long line of nodding guests"
+    },
+    "example": {
+      "en": "Mongolians drink milk tea every day.",
+      "mn": "Монголчууд өдөр бүр сүүтэй цай уудаг."
+    },
+    "avoid_with": []
+  },
+  {
+    "id": 200,
+    "word": "salt",
+    "pos": [
+      "noun"
+    ],
+    "pos_mn": [
+      "нэр үг"
+    ],
+    "meaning_mn": "давс",
+    "ipa": "/sɔːlt/",
+    "pron_mn": "солт",
+    "keyword_mn": "солих",
+    "mnemonic_mn": "Эмээ элсэн чихрийг давсаар сольчихоод бялуу хийсэн тул зочид бүгд нэгэн зэрэг нүүрээ үрчийлгэв.",
+    "image": {
+      "file": "images/0200-salt.webp",
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: guests making sour faces while eating a cake because grandma swapped the sugar with salt"
+    },
+    "example": {
+      "en": "Add a little salt to the soup.",
+      "mn": "Шөлөнд жаахан давс нэм."
+    },
+    "avoid_with": []
   }
 ]

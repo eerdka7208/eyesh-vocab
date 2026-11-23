@@ -5,6 +5,7 @@
  * Зураг: public/vocab/images/<файл>.webp
  */
 import { COMMON_MNEMONICS } from './commonWords';
+import { BASIC_MNEMONICS } from './basicWords';
 
 export interface MnemonicEntry {
   keyword: string;
@@ -15,10 +16,5 @@ export interface MnemonicEntry {
 
 export const VOCAB_MNEMONICS: Record<string, MnemonicEntry> = {
   ...COMMON_MNEMONICS,
-  neighbor: {
-    keyword: 'нэг бэр',
-    pronMn: 'нэйбэр',
-    mnemonic: 'Манай хөрш айлд нэг бэр ирээд, тэр өдрөөс хойш хоёр айл бие биедээ байнга тусалдаг болов.',
-    image: '/vocab/images/neighbor.webp',
-  },
+  ...BASIC_MNEMONICS,
 };

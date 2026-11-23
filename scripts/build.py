@@ -159,29 +159,44 @@ def main():
     def q(v):
         return "'" + v.replace('\\', '\\\\').replace("'", "\\'") + "'"
 
-    rows = sorted(out, key=lambda x: (list(dict.fromkeys(topics.values())).index(topics[x['word']])
-                                      if x['word'] in topics else 999, x['id']))
-    lines = ['/* eslint-disable */',
-             '// Автоматаар үүсгэсэн (eyesh-vocab/scripts/build.py). Гараар бүү засаарай.',
-             '// Мөр бүр: [сэдэв, англи, монгол, IPA, үгсийн аймаг, жишээ (англи), жишээ (монгол)]',
-             "import type { MnemonicEntry } from './vocabMnemonics';", '',
-             "export const COMMON_WORDS: [string, string, string, string, 'n.' | 'v.' | 'adj.' | 'adv.' | 'phr.', string, string][] = ["]
-    cur = None
-    for x in rows:
-        t = topics.get(x['word'], default_topic[x['pos'][0]])
-        if t != cur:
-            lines.append(f'  // {t}')
-            cur = t
-        lines.append(f"  [{q(t)}, {q(x['word'])}, {q(x['meaning_mn'])}, {q(x['ipa'])}, {q(pos_short[x['pos'][0]])}, "
-                     f"{q(x['example']['en'])}, {q(x['example']['mn'])}],")
-    lines += ['];', '', 'export const COMMON_MNEMONICS: Record<string, MnemonicEntry> = {']
-    for x in out:
-        lines.append(f"  {q(x['word'])}: {{ keyword: {q(x['keyword_mn'])}, pronMn: {q(x['pron_mn'])}, "
-                     f"mnemonic: {q(x['mnemonic_mn'])}, image: {q(IMAGE_BASE + x['image']['file'])} }},")
-    lines += ['};', '']
-    with open(os.path.join(ROOT, 'data', 'commonWords.ts'), 'w', encoding='utf-8') as f:
-        f.write('\n'.join(lines))
-    print(f'\n✓ {len(out)} үг → data/words.json, data/words.csv, data/commonWords.ts')
+    # Багц бүр: (нэр, id-ийн муж, файл, үгсийн хувьсагч, mnemonic хувьсагч, id-аар эрэмбэлэх эсэх)
+    # BASIC нь app-ын хуучин дарааллыг (vb_basic_NNN) хадгалах ёстой тул id-аар эрэмбэлнэ.
+    decks = [
+        ('Түгээмэл үгс', range(1, 101), 'commonWords.ts', 'COMMON_WORDS', 'COMMON_MNEMONICS', False),
+        ('Суурь A1–A2', range(101, 201), 'basicWords.ts', 'BASIC_WORDS', 'BASIC_MNEMONICS', True),
+    ]
+    topic_order = list(dict.fromkeys(topics.values()))
+    for deck_name, id_range, fname, words_var, mn_var, by_id in decks:
+        items = [x for x in out if x['id'] in id_range]
+        if not items:
+            continue
+        if by_id:
+            rows = sorted(items, key=lambda x: x['id'])
+        else:
+            rows = sorted(items, key=lambda x: (topic_order.index(topics[x['word']])
+                                                if x['word'] in topics else 999, x['id']))
+        lines = ['/* eslint-disable */',
+                 '// Автоматаар үүсгэсэн (eyesh-vocab/scripts/build.py). Гараар бүү засаарай.',
+                 f'// «{deck_name}» багц. Мөр бүр: [сэдэв, англи, монгол, IPA, үгсийн аймаг, жишээ (англи), жишээ (монгол)]',
+                 "import type { MnemonicEntry } from './vocabMnemonics';", '',
+                 f"export const {words_var}: [string, string, string, string, 'n.' | 'v.' | 'adj.' | 'adv.' | 'phr.', string, string][] = ["]
+        cur = None
+        for x in rows:
+            t = topics.get(x['word'], default_topic[x['pos'][0]])
+            if t != cur:
+                lines.append(f'  // {t}')
+                cur = t
+            lines.append(f"  [{q(t)}, {q(x['word'])}, {q(x['meaning_mn'])}, {q(x['ipa'])}, {q(pos_short[x['pos'][0]])}, "
+                         f"{q(x['example']['en'])}, {q(x['example']['mn'])}],")
+        lines += ['];', '', f'export const {mn_var}: Record<string, MnemonicEntry> = {{']
+        for x in items:
+            lines.append(f"  {q(x['word'])}: {{ keyword: {q(x['keyword_mn'])}, pronMn: {q(x['pron_mn'])}, "
+                         f"mnemonic: {q(x['mnemonic_mn'])}, image: {q(IMAGE_BASE + x['image']['file'])} }},")
+        lines += ['};', '']
+        with open(os.path.join(ROOT, 'data', fname), 'w', encoding='utf-8') as f:
+            f.write('\n'.join(lines))
+        print(f'✓ {deck_name}: {len(items)} үг → data/{fname}')
+    print(f'\n✓ нийт {len(out)} үг → data/words.json, data/words.csv')
 
 
 if __name__ == '__main__':
