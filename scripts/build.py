@@ -167,6 +167,7 @@ def main():
         ('Өдөр тутам', range(201, 301), 'dailyWords.ts', 'DAILY_WORDS', 'DAILY_MNEMONICS', True),
         ('Ажил & Бизнес', range(301, 401), 'workWords.ts', 'WORK_WORDS', 'WORK_MNEMONICS', True),
         ('Технологи', range(401, 501), 'techWords.ts', 'TECH_WORDS', 'TECH_MNEMONICS', True),
+        ('Академик', range(501, 601), 'academicWords.ts', 'ACADEMIC_WORDS', 'ACADEMIC_MNEMONICS', True),
     ]
     topic_order = list(dict.fromkeys(topics.values()))
     for deck_name, id_range, fname, words_var, mn_var, by_id in decks:
