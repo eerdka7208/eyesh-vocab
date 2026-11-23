@@ -4863,7 +4863,7 @@
     "mnemonic_mn": "Эмээ суудлын тасалбараа бэлгийн боодолд ороочихсон тул онгоцонд суухын өмнө боодлыг нь задлах гэж нэг цаг зарцуулав.",
     "image": {
       "file": "images/0202-boarding-pass.webp",
-      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a grandma at an airport gate struggling to unwrap a gift wrapped ticket while a long line of passengers waits"
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a grandma at an airport gate struggling to unwrap a gift wrapped ticket while a long line of passengers waits, plain walls with no signs"
     },
     "example": {
       "en": "Keep your passport and boarding pass ready.",
@@ -5081,7 +5081,7 @@
     "mnemonic_mn": "Валют солих газарт эмээ мөнгөний оронд карамель өгөөд долларт солиулахыг хүсэв.",
     "image": {
       "file": "images/0211-currency.webp",
-      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a grandma at a currency exchange window offering caramel candies instead of money to a confused clerk"
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a grandma at a bank counter window offering caramel candies instead of banknotes to a confused clerk, no signs and no symbols"
     },
     "example": {
       "en": "You can exchange local currency at the airport.",
@@ -5177,7 +5177,7 @@
     "mnemonic_mn": "Хямдралын өдөр дэлгүүрт диско хөгжим тавихад худалдан авагчид бүжиглэсээр бүх тавиурыг хоосолжээ.",
     "image": {
       "file": "images/0215-discount.webp",
-      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: shoppers dancing disco under a disco ball in a store during a sale while the shelves are empty"
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: shoppers dancing disco under a disco ball in a store while the shelves are empty, no signs or posters"
     },
     "example": {
       "en": "Students receive a twenty percent discount here.",
@@ -5705,7 +5705,7 @@
     "mnemonic_mn": "Хөлбөмбөгчин гаалийн шалгалт дээр паспортоо найз руугаа пас өгөөд хоёулаа гоол гэж хашгирав.",
     "image": {
       "file": "images/0237-passport.webp",
-      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a football player at passport control kicking his passport like a ball to his teammate"
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a football player at an airport checkpoint desk kicking his small booklet like a ball to his teammate, no signs"
     },
     "example": {
       "en": "Do not forget your passport.",
@@ -5777,7 +5777,7 @@
     "mnemonic_mn": "Хөтлийн оройд барьсан зочид буудал руу аялагчид чемоданаа чирсээр амьсгаадан авирдаг.",
     "image": {
       "file": "images/0240-hotel.webp",
-      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: tourists climbing a steep mountain pass dragging suitcases toward a hotel at the very top"
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: tourists climbing a steep mountain pass dragging suitcases toward a fancy building with balconies at the very top, no signs"
     },
     "example": {
       "en": "Our hotel is near the beach.",
@@ -6761,7 +6761,7 @@
     "mnemonic_mn": "Фермер эмийн сангаас үнээндээ ханиадны эм авах гэж үнээгээ дагуулаад орж ирэв.",
     "image": {
       "file": "images/0281-pharmacy.webp",
-      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a farmer bringing his cow into a pharmacy to buy cough medicine"
+      "prompt": "Funny cartoon illustration for a vocabulary memory card. Flat vector style, bold clean outlines, bright cheerful colors, simple plain light background, exaggerated expressions, one clear scene, square 1:1. Absolutely no text, no letters, no numbers, no words anywhere in the image. Scene: a farmer bringing his cow into a medicine shop with shelves of bottles to buy cough syrup, only a green cross symbol, no words"
     },
     "example": {
       "en": "The pharmacy opens at nine.",
