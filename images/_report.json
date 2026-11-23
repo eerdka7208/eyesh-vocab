@@ -1,7 +1,7 @@
 {
- "time": "2026-11-23T12:17:34.927662+00:00",
+ "time": "2026-11-23T12:19:39.618956+00:00",
  "model": "gpt-image-1-mini",
- "generated_now": 200,
+ "generated_now": 6,
  "images_total": 500,
  "failed": [],
  "fatal_error": null,
