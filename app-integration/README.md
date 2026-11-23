@@ -6,6 +6,7 @@ AI Studio-ийн Code хэсэгт эдгээрийг **яг ижил замаа
 |---|---|
 | `data/commonWords.ts` | `src/data/commonWords.ts` (шинэ) |
 | `data/basicWords.ts` | `src/data/basicWords.ts` («Суурь A1–A2» багц, 100 үг) |
+| `data/dailyWords.ts` | `src/data/dailyWords.ts` («Өдөр тутам» багц, 100 үг) |
 | `app-integration/src/data/vocabMnemonics.ts` | `src/data/vocabMnemonics.ts` |
 | `app-integration/src/components/FlashcardDeck.tsx` | `src/components/FlashcardDeck.tsx` (картын шинэ ар тал) |
 

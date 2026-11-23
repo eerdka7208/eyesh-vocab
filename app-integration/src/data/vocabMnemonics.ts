@@ -6,6 +6,7 @@
  */
 import { COMMON_MNEMONICS } from './commonWords';
 import { BASIC_MNEMONICS } from './basicWords';
+import { DAILY_MNEMONICS } from './dailyWords';
 
 export interface MnemonicEntry {
   keyword: string;
@@ -17,4 +18,5 @@ export interface MnemonicEntry {
 export const VOCAB_MNEMONICS: Record<string, MnemonicEntry> = {
   ...COMMON_MNEMONICS,
   ...BASIC_MNEMONICS,
+  ...DAILY_MNEMONICS,
 };

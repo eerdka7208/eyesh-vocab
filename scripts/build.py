@@ -164,6 +164,7 @@ def main():
     decks = [
         ('Түгээмэл үгс', range(1, 101), 'commonWords.ts', 'COMMON_WORDS', 'COMMON_MNEMONICS', False),
         ('Суурь A1–A2', range(101, 201), 'basicWords.ts', 'BASIC_WORDS', 'BASIC_MNEMONICS', True),
+        ('Өдөр тутам', range(201, 301), 'dailyWords.ts', 'DAILY_WORDS', 'DAILY_MNEMONICS', True),
     ]
     topic_order = list(dict.fromkeys(topics.values()))
     for deck_name, id_range, fname, words_var, mn_var, by_id in decks:
